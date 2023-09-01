@@ -4,6 +4,8 @@
     --principal: #148BB3;
     --secundaria: #54AECC;
     --background: #1A3640;
+    --backgroundHeader: #333333;
+    --backgroundHover: #666666;
     --letra: #ffffff;
 }
 
@@ -16,64 +18,56 @@
 	vertical-align: baseline;
 }
 
-
-
-
-
 body{
     background-color:var(--background);
     color: var(--letra);
-    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-a{
-    color: var(--letra);
-    text-decoration: none;
-}
-h1{
-    font-size: 60px;
-    font-weight: bold;
-    margin-bottom: 60px;
-}
-p{
-    margin: 40px;
-    font-size: 30px;
-}
-
-
-
-
+/* HEADER */
 header nav {
     display: flex;
-    justify-content: space-between; 
-    background-color: #333;
-    padding: 10px 0;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--backgroundHeader);
+    padding: 10px 10px;
     color: var(--letra);
-}
-  
+} 
+
 header nav a {
+    font-weight: bold;
     text-decoration: none;
-    color: #fff;
-    padding: 5px 10px;
+    color: var(--letra);
+    margin: 0px 10px;
+    padding: 5px 15px;
+    transition: all 0.3s;
+    border-radius: 5px;
 }
 
-header nav .primeiro {
+header nav a:first-child {
     margin-right: auto;
 }
 
-header nav a:hover {
-    background-color: #555;
+header nav a img {
+    max-width: 100px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
 }
 
+header a:hover {
+    transition: all 0.3s;
+    background-color: var(--backgroundHover);
+}
+/* FINAL HEADER */
 
 
-.container{
+/* TELA PRINCIPAL */
+.principal{
     display: flex;
     flex-direction: row;
-
 }
-
-.home-esq{
+.principalEsquerda{
     width: 50%;
     height: 90vh;
     display: flex;
@@ -82,10 +76,51 @@ header nav a:hover {
     align-items: center;
 }
 
-.home-dir{
+.principalDireita{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
+/* FINAL TELA PRINCIPAL */
+
+
+
+/* RESPONSIVO */
+/* @media (min-width: 768px) {
+    header nav {
+        justify-content: flex-end;
+    }
+
+    header nav a {
+        margin: 0px 20px;
+    }
+
+    header nav a img {
+        max-width: 100px;
+        max-height: 30px;
+    }
+} */
+
+/* Estilos para telas menores, como smartphones */
+@media (max-width: 680px) {
+    header nav {
+        flex-direction: column; /* Altere para layout vertical */
+        align-items: flex-start; /* Alinhe itens à esquerda */
+    }
+
+    header nav a {
+        margin: 10px 0; /* Adicione espaço vertical entre os itens */
+    }
+
+    header nav a:first-child {
+        margin-right: 0; /* Remova a margem direita automática */
+    }
+
+    header nav a img {
+        max-width: 80px; /* Reduza o tamanho da imagem */
+        max-height: 24px;
+    }
+}
+/* FINAL RESPONSIVO */
