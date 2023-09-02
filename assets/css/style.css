@@ -26,6 +26,8 @@ body{
 }
 /* FINAL GLOBAIS */
 
+
+
 /* HEADER */
 header nav {
     display: flex;
@@ -64,6 +66,7 @@ header a:hover {
 /* FINAL HEADER */
 
 
+
 /* TELA PRINCIPAL */
 .principal{
     display: flex;
@@ -86,6 +89,35 @@ header a:hover {
     width: 50%;
 }
 /* FINAL TELA PRINCIPAL */
+
+
+
+/* MENU DE DROPDOWN */
+nav li{
+    list-style-type: none;
+}
+
+.dropMenu{
+    position: absolute;
+    display: none;
+}
+
+.dropDown a{
+    display: block;
+    transition: 0.3s;
+}
+
+.dropDown:hover .dropMenu{
+    display: block;
+    background-color: var(--backgroundHeader);
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    width: 150px;
+    text-align: left;
+    transition: 0.3s;
+}
+/* FINAL MENU DE DROPDOWN */
+
 
 
 /* RESPONSIVO */
