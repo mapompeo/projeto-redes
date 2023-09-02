@@ -52,14 +52,14 @@ header nav a:first-child {
     margin-right: auto;
 }
 
-header nav a img {
+header nav .logo img {
     max-width: 100px;
     max-height: 30px;
     width: auto;
     height: auto;
 }
 
-header a:hover {
+.hover:hover{
     transition: all 0.3s;
     background-color: var(--backgroundHover);
 }
