@@ -3,10 +3,12 @@
 :root {
     --principal: #148BB3;
     --secundaria: #54AECC;
-    --background: #1A3640;
+    --background: #2A4058;
     --backgroundHeader: #333333;
+    --backgroundHeaderSecundaria: #2c2c2c;
     --backgroundHover: #666666;
     --letra: #ffffff;
+    --letraEscura: #000000;
 }
 
 /* GLOBAIS */
@@ -20,7 +22,6 @@
 }
 
 body{
-    background-color:var(--background);
     color: var(--letra);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
@@ -34,7 +35,7 @@ header nav {
     justify-content: flex-end;
     align-items: center;
     background-color: var(--backgroundHeader);
-    padding: 10px 10px;
+    padding: 10px;
     color: var(--letra);
 } 
 
@@ -67,11 +68,42 @@ header nav .logo img {
 
 
 
+/* MENU DE DROPDOWN */
+header nav li{
+    list-style-type: none;
+}
+
+.dropMenu{
+    position: absolute;
+    display: none;
+}
+
+.dropDown a{
+    display: block;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.dropDown:hover .dropMenu{
+    display: block;
+    background-color: var(--backgroundHeaderSecundaria);
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    text-align: left;
+    transition: 0.3s;
+}
+/* FINAL MENU DE DROPDOWN */
+
+
+
 /* TELA PRINCIPAL */
 .principal{
+    background-color: var(--background);
     display: flex;
     flex-direction: row;
 }
+
 .principalEsquerda{
     width: 50%;
     height: 90vh;
@@ -87,36 +119,130 @@ header nav .logo img {
     align-items: center;
     justify-content: center;
     width: 50%;
+    padding-right: 90px;
+}
+
+.titulo {
+    transition: all 0.3s;
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
+}
+
+.titulo:hover {
+    text-shadow: 10px 10px 1px black;
+}
+
+.paragrafoPrincipal {
+    font-size: 25px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
+    padding: 90px 90px 0px 90px;
+    text-align: center;
 }
 /* FINAL TELA PRINCIPAL */
 
 
 
-/* MENU DE DROPDOWN */
-nav li{
-    list-style-type: none;
+/* PROJETOS */
+.projetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: auto;
+    margin: 50px 300px;
 }
 
-.dropMenu{
-    position: absolute;
-    display: none;
+.bancoDeDados,
+.fluxograma,
+.infraestrutura {
+    font-size: 25px;
+    transition: all 0.3s;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: 50px;
+    margin: 25px;
+    color: var(--letraEscura);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-.dropDown a{
-    display: block;
-    transition: 0.3s;
+.bancoDeDados:hover,
+.fluxograma:hover,
+.infraestrutura:hover {
+    transition: all 0.3s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);
 }
 
-.dropDown:hover .dropMenu{
-    display: block;
+.projetos img {
+    float: left;
+    margin-right: auto;
+    max-width: 400px;
+    min-width: 400px;
+    width: auto;
+    height: auto;
+    padding-right: 50px;
+}
+
+.projetos div {
+    text-align: justify;
+}
+
+.projetos h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.projetos a {
+    text-decoration: none;
+    color: var(--letraEscura);
+}
+/* FINAL PROJETOS */
+
+
+
+/* RODAPÉ */
+footer {
     background-color: var(--backgroundHeader);
-    border-radius: 10px;
-    padding: 10px 0px 10px 0px;
-    width: 150px;
-    text-align: left;
-    transition: 0.3s;
+    padding: 20px 350px;
 }
-/* FINAL MENU DE DROPDOWN */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+hr {
+    display: block;
+    margin: 30px;
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.imagemHeader{
+    max-width: 100px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    padding: 0px 20px;
+    filter: invert(100%);
+}
+
+.logoHeader {
+    padding-right: 20px;
+    max-width: 100px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+}
+
+.copyright {
+    padding-right: 90px;
+}
+/* FINAL RODAPÉ */
 
 
 
