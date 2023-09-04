@@ -29,7 +29,35 @@ body{
 
 
 
+/* SCROLL BAR */
+body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--backgroundHeader);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid hsla(0, 0%, 0%, 0.753);
+  }
+/* FINAL SCROLL BAR */
+
+
+
 /* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--backgroundHeader);
+    color: var(--letra);
+    z-index: 100;
+}
+
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -99,9 +127,18 @@ header nav li{
 
 /* TELA PRINCIPAL */
 .principal{
-    background-color: var(--background);
     display: flex;
     flex-direction: row;
+    background-image: url('../src/images/icons/giphy.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    justify-content: space-between;
+}
+
+.blurBackground {
+    backdrop-filter: blur(30px);
 }
 
 .principalEsquerda{
@@ -113,11 +150,11 @@ header nav li{
     align-items: center;
 }
 
-.principalDireita{
+.principalDireita {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-start;
     width: 50%;
     padding-right: 90px;
 }
@@ -148,7 +185,7 @@ header nav li{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: auto;
+    align-items: flex-start;
     margin: 50px 300px;
 }
 
