@@ -56,6 +56,7 @@ header {
     background-color: var(--backgroundHeader);
     color: var(--letra);
     z-index: 100;
+    box-shadow: 0px 3px 30px black;
 }
 
 header nav {
@@ -133,13 +134,11 @@ header nav li{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
-    justify-content: space-between;
+    height: 100vh;
+    cursor:default;
+    backdrop-filter: blur(5px);
 }
 
-.blurBackground {
-    backdrop-filter: blur(30px);
-}
 
 .principalEsquerda{
     width: 50%;
@@ -153,8 +152,8 @@ header nav li{
 .principalDireita {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     padding-right: 90px;
 }
@@ -162,21 +161,28 @@ header nav li{
 .titulo {
     transition: all 0.3s;
     font-weight: bold;
-    font-size: 120px;
+    font-size: 150px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
 }
 
 .titulo:hover {
-    text-shadow: 10px 10px 1px black;
+    text-shadow: 10px 10px 20px black;
 }
 
 .paragrafoPrincipal {
-    font-size: 20px;
+    font-size: 24px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
     padding: 90px 90px 0px 90px;
     text-align: center;
 }
+
+.irParaBaixo{
+    align-self: end;
+}
 /* FINAL TELA PRINCIPAL */
+
+
+
 
 
 
@@ -237,6 +243,10 @@ header nav li{
 
 
 
+
+
+
+
 /* RODAPÉ */
 footer {
     background-color: var(--backgroundHeader);
@@ -280,6 +290,16 @@ hr {
     padding-right: 90px;
 }
 /* FINAL RODAPÉ */
+
+
+
+
+
+
+
+
+
+
 
 
 
