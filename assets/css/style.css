@@ -156,8 +156,14 @@ header nav li{
     align-items: center;
 }
 .logoPrincipal{
-    width: 220px;
+    width: 420px;
     margin-top: 100px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
+    transition: all 0.4s;
+}
+.logoPrincipal:hover{
+    transform: scale(110%);
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
 }
 
 .principalDireita {
