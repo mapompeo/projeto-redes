@@ -59,16 +59,7 @@ header {
     z-index: 100;
     box-shadow: 0px 3px 30px black;
 }
-header:{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--backgroundHeader);
-    color: var(--letra);
-    z-index: 100;
-    box-shadow: 0px 3px 30px black;
-}
+
 
 header nav {
     display: flex;
