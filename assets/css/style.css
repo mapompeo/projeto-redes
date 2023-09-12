@@ -166,7 +166,7 @@ header nav li{
 }
 
 .titulo:hover {
-    text-shadow: 10px 10px 20px black;
+    text-shadow: 10px 10px 5px black;
 }
 
 .paragrafoPrincipal {
