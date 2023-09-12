@@ -19,6 +19,7 @@
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -59,13 +60,14 @@ header {
     box-shadow: 0px 3px 30px black;
 }
 
+
 header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: var(--backgroundHeader);
     padding: 10px;
     color: var(--letra);
+    background-color: transparent;
 } 
 
 header nav a {
@@ -76,6 +78,7 @@ header nav a {
     padding: 5px 15px;
     transition: all 0.3s;
     border-radius: 5px;
+    
 }
 
 header nav a:first-child {
@@ -128,15 +131,19 @@ header nav li{
 
 /* TELA PRINCIPAL */
 .principal{
-    display: flex;
-    flex-direction: row;
     background-image: url('../src/images/icons/giphy.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+}
+.blurDoCaralho{
+    display: flex;
+    flex-direction: row;
     height: 100vh;
     cursor:default;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(40px) saturate(70%) brightness(90%);
+
 }
 
 
@@ -147,6 +154,16 @@ header nav li{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.logoPrincipal{
+    width: 420px;
+    margin-top: 100px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
+    transition: all 0.4s;
+}
+.logoPrincipal:hover{
+    transform: scale(110%);
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
 }
 
 .principalDireita {
@@ -161,7 +178,7 @@ header nav li{
 .titulo {
     transition: all 0.3s;
     font-weight: bold;
-    font-size: 150px;
+    font-size: 170px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
 }
 
@@ -171,13 +188,32 @@ header nav li{
 
 .paragrafoPrincipal {
     font-size: 24px;
+    font-weight: bold;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
     padding: 90px 90px 0px 90px;
     text-align: center;
 }
 
 .irParaBaixo{
-    align-self: end;
+    position: relative;
+    top: 22vh; 
+    text-decoration: none;
+    color: var(--letra);
+    font-weight: bold;
+    transition: all 0.4s;
+    padding: 4px 10px;
+    /* (jose) responsividade disso aqui foi pro caralho, mas ta no centro e em baixo :) */
+   
+    /* (jose) na minha mais humilde opinição, ao inves de um texto, deveria
+    ser um botao/seta no canto da pagina, pra ir pra baixo */
+
+}
+.irParaBaixo:hover{
+    transform: scale(130%);
+    background-color: #ffffff42;
+    border-radius: 40px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+    
 }
 /* FINAL TELA PRINCIPAL */
 
