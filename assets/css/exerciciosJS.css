@@ -25,3 +25,10 @@ main{
     padding-bottom: 30px;
     font-weight: bold;
 }
+
+.exerciciosJS img{
+    width: 700px;
+    height: 500px;
+    margin: 40px 0px;
+    border-radius: 20px;
+}
