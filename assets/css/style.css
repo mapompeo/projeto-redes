@@ -193,11 +193,17 @@ header nav li {
     font-size: 24px;
     font-weight: bold;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
-    padding: 90px 90px 0px 90px;
+    padding: 90px 0px;
     text-align: center;
     cursor: default;
 }
 
+.flecha {
+    width: 50px;
+    height: auto;
+}
+
+/* 
 .irParaBaixo {
     position: relative;
     top: 22vh;
@@ -213,8 +219,7 @@ header nav li {
     background-color: #ffffff42;
     border-radius: 40px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
-
-}
+} */
 
 /* FINAL TELA PRINCIPAL */
 
