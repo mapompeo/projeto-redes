@@ -5,7 +5,7 @@
     --secundaria: #54AECC;
     --background: #2A4058;
     --backgroundHeader: #333333;
-    --backgroundHeaderSecundaria: #2c2c2c;
+    --backgroundHeaderSecundaria: #2c2c2c99;
     --backgroundHover: #666666;
     --letra: #ffffff;
     --letraEscura: #000000;
@@ -13,19 +13,20 @@
 
 /* GLOBAIS */
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     color: var(--letra);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
+
 /* FINAL GLOBAIS */
 
 
@@ -33,17 +34,18 @@ body{
 /* SCROLL BAR */
 body::-webkit-scrollbar {
     width: 15px;
-  }
-  
-  body::-webkit-scrollbar-track {
+}
+
+body::-webkit-scrollbar-track {
     background: var(--backgroundHeader);
-  }
-  
-  body::-webkit-scrollbar-thumb {
+}
+
+body::-webkit-scrollbar-thumb {
     background-color: white;
     border-radius: 20px;
     border: 3px solid hsla(0, 0%, 0%, 0.753);
-  }
+}
+
 /* FINAL SCROLL BAR */
 
 
@@ -54,12 +56,12 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--backgroundHeader);
+    backdrop-filter: blur(40px) saturate(70%) brightness(90%);
+    background-color: rgba(59, 59, 59, 0.473);
     color: var(--letra);
     z-index: 100;
     box-shadow: 0px 3px 30px black;
 }
-
 
 header nav {
     display: flex;
@@ -67,8 +69,7 @@ header nav {
     align-items: center;
     padding: 10px;
     color: var(--letra);
-    background-color: transparent;
-} 
+}
 
 header nav a {
     font-weight: bold;
@@ -78,7 +79,6 @@ header nav a {
     padding: 5px 15px;
     transition: all 0.3s;
     border-radius: 5px;
-    
 }
 
 header nav a:first-child {
@@ -92,31 +92,33 @@ header nav .logo img {
     height: auto;
 }
 
-.hover:hover{
+.hover:hover {
     transition: all 0.3s;
-    background-color: var(--backgroundHover);
+    backdrop-filter: blur(40px) saturate(70%) brightness(90%);
+    background-color: rgba(59, 59, 59, 0.473);
 }
+
 /* FINAL HEADER */
 
 
 
 /* MENU DE DROPDOWN */
-header nav li{
+header nav li {
     list-style-type: none;
 }
 
-.dropMenu{
+.dropMenu {
     position: absolute;
     display: none;
 }
 
-.dropDown a{
+.dropDown a {
     display: block;
     transition: 0.3s;
     margin: 5px;
 }
 
-.dropDown:hover .dropMenu{
+.dropDown:hover .dropMenu {
     display: block;
     background-color: var(--backgroundHeaderSecundaria);
     border-radius: 10px;
@@ -125,29 +127,27 @@ header nav li{
     text-align: left;
     transition: 0.3s;
 }
+
 /* FINAL MENU DE DROPDOWN */
 
 
 
 /* TELA PRINCIPAL */
-.principal{
+.principal {
     background-image: url('../src/images/icons/giphy.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
-.blurDoCaralho{
+
+.blurDoCaralho {
     display: flex;
     flex-direction: row;
     height: 100vh;
-    cursor:default;
     backdrop-filter: blur(40px) saturate(70%) brightness(90%);
-
 }
 
-
-.principalEsquerda{
+.principalEsquerda {
     width: 50%;
     height: 90vh;
     display: flex;
@@ -155,13 +155,15 @@ header nav li{
     justify-content: center;
     align-items: center;
 }
-.logoPrincipal{
+
+.logoPrincipal {
     width: 420px;
     margin-top: 100px;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
     transition: all 0.4s;
 }
-.logoPrincipal:hover{
+
+.logoPrincipal:hover {
     transform: scale(110%);
     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
 }
@@ -180,6 +182,7 @@ header nav li{
     font-weight: bold;
     font-size: 170px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
+    cursor: default;
 }
 
 .titulo:hover {
@@ -192,33 +195,28 @@ header nav li{
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
     padding: 90px 90px 0px 90px;
     text-align: center;
+    cursor: default;
 }
 
-.irParaBaixo{
+.irParaBaixo {
     position: relative;
-    top: 22vh; 
+    top: 22vh;
     text-decoration: none;
     color: var(--letra);
     font-weight: bold;
     transition: all 0.4s;
     padding: 4px 10px;
-    /* (jose) responsividade disso aqui foi pro caralho, mas ta no centro e em baixo :) */
-   
-    /* (jose) na minha mais humilde opinição, ao inves de um texto, deveria
-    ser um botao/seta no canto da pagina, pra ir pra baixo */
-
 }
-.irParaBaixo:hover{
+
+.irParaBaixo:hover {
     transform: scale(130%);
     background-color: #ffffff42;
     border-radius: 40px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
-    
+
 }
+
 /* FINAL TELA PRINCIPAL */
-
-
-
 
 
 
@@ -231,7 +229,7 @@ header nav li{
     margin: 50px 300px;
 }
 
-.bancoDeDados,
+.exerciciosJS,
 .fluxograma,
 .infraestrutura {
     font-size: 25px;
@@ -242,9 +240,10 @@ header nav li{
     margin: 25px;
     color: var(--letraEscura);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
-.bancoDeDados:hover,
+.exerciciosJS:hover,
 .fluxograma:hover,
 .infraestrutura:hover {
     transition: all 0.3s;
@@ -275,11 +274,8 @@ header nav li{
     text-decoration: none;
     color: var(--letraEscura);
 }
+
 /* FINAL PROJETOS */
-
-
-
-
 
 
 
@@ -305,7 +301,7 @@ hr {
     border-radius: 50px;
 }
 
-.imagemHeader{
+.imagemHeader {
     max-width: 100px;
     max-height: 30px;
     width: auto;
@@ -325,17 +321,8 @@ hr {
 .copyright {
     padding-right: 90px;
 }
+
 /* FINAL RODAPÉ */
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -359,4 +346,5 @@ hr {
         max-height: 24px;
     }
 }
+
 /* FINAL RESPONSIVO */

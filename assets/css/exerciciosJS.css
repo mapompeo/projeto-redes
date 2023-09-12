@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.exerciciosJS{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 900px;
+}
+
+.exerciciosJS:first-child{
+    margin-top: 110px;
+}
+
+
+.exerciciosJS h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+}

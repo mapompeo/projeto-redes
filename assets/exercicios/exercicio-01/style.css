@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Noto Sans', 'Arial';
+     text-shadow: 2px 3px 5px black;
+    background: linear-gradient(100deg,#334d50, #cbcaa5);
+    background-attachment: fixed;
+    color: white;
+}
+
+h1{
+    text-shadow: 2px 3px 5px black;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+#res_vetor{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    margin-bottom: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.857);
+    border: solid 1px rgba(0, 0, 0, 0.483);
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    transition: 0.3s
+}
+
+button:hover{
+    background-color: rgba(60, 60, 60, 0.786);
+    transition: 0.3s;
+    box-shadow: 1px 1px 8px black;
+}
+
+#met{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+#res_vet_cre,
+#res_vet_decre,
+#res_soma{
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.856);
+}
