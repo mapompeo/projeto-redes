@@ -41,6 +41,7 @@ header{
 .anterior, .voltarHome, .proximo{
     /* border: solid 2px rgb(250,0,0,0.2); */
     margin: 0px;
+    width: 200px;
 }
 
 
