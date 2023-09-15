@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --principal: #148BB3;
+    --secundaria: #54AECC;
+    --background: #2A4058;
+    --backgroundHeader: #333333;
+    --backgroundHeaderSecundaria: #2c2c2c99;
+    --backgroundHover: #666666;
+    --letra: #ffffff;
+    --letraEscura: #000000;
+}
+
+/* GLOBAIS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(0deg, var(--background), black);
+    background-attachment: fixed;
+    color: var(--letra);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: 0px 0px 4px var(--letra);
+    overflow: hidden;
+}
+header{
+    background-color: #2A405870;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.anterior, .voltarHome, .proximo{
+    /* border: solid 2px rgb(250,0,0,0.2); */
+    margin: 0px;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+p, div{
+    margin-top: 30px;
+}
+
+button{
+    background-color: var(--principal);
+    color: var(--letra);
+    padding: 3px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 20px 5px;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.5);
+    transition: all .3s;
+}
+button:hover{
+    transform: scale(103%);
+    box-shadow: none;
+
+}
+
+header button{
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 22px;
+}
+header button:hover{
+    transform: scale(100%);
+    background-color: #32547990;
+}

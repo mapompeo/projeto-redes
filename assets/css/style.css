@@ -195,16 +195,15 @@ header nav li {
     text-align: center;
     cursor: default;
 }
-
-.flecha {
-    width: 50px;
-    height: auto;
+.flecha{
+    width: 60px;
     transition: all 0.3s;
 }
-
-.flecha:hover {
-    transform: scale(110%);
+.flecha:hover{
+    width: 60px;
+    transform: scale(115%);
 }
+
 
 /* FINAL TELA PRINCIPAL */
 
@@ -240,9 +239,7 @@ header nav li {
 .projetos img {
     float: left;
     margin-right: auto;
-    max-width: 400px;
-    min-width: 400px;
-    width: auto;
+    width: 400px;
     height: auto;
     padding-right: 50px;
 }
