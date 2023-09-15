@@ -1,16 +1,86 @@
 .conteudo:first-child{
     margin-top: 20px;
 }
+:root {
+    --principal: #148BB3;
+    --secundaria: #54AECC;
+    --background: #2A4058;
+    --backgroundHeader: #333333;
+    --backgroundHeaderSecundaria: #2c2c2c;
+    --backgroundHover: #666666;
+    --letra: #ffffff;
+    --letraEscura: #000000;
+}
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--backgroundHeader);
+    color: var(--letra);
+    z-index: 100;
+    transition: all 0.3s;
+}
+
+
+.conteudo {
+    font-size: 25px;
+    transition: all 0.3s;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: 50px;
+    margin: 25px;
+    color: var(--letraEscura);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.conteudo:hover {
+    transition: all 0.3s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: -40px 300px 60px 300px;
+}
+
+.projetos img {
+    float: left;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+.projetos div {
+    text-align: justify;
+}
+
+.projetos h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.projetos a {
+    text-decoration: none;
+    color: var(--letraEscura);
+}
 
 .flecha {
-    width: 70px;
+    width: 40px;
     height: auto;
     margin: 90px 0px 0px 40px;
-
     transition: all 0.3s;
 }
 
 .flecha:hover {
-    transform: scale(110%);
+    transform: scale(106%);
+
 }

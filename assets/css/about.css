@@ -1,0 +1,78 @@
+
+span{
+    font-weight: bold;
+    text-shadow: 0px 0px 6px rgb(255,255,255,0.3);
+}
+
+.principal {
+    background-image: url('../src/images/icons/giphy.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blur {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    backdrop-filter: blur(40px) saturate(110%) brightness(50%) contrast(120%);
+}
+
+.principalEsquerda {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoPrincipal {
+    width: 420px;
+    margin-top: 100px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
+    transition: all 0.3s;
+}
+
+.logoPrincipal:hover {
+    transform: scale(110%);
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
+}
+
+.principalDireita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-right: 90px;
+}
+
+.titulo {
+    transition: all 0.3s;
+    font-weight: bold;
+    font-size: 90px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
+    cursor: default;
+    margin-top: 20px;
+}
+
+.titulo:hover {
+    text-shadow: 10px 10px 5px black;
+}
+.container{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.575);
+    height: 650px;
+    width: 700px;
+    padding: 20px 30px;
+    border-radius: 60px;
+}
+
+.paragrafoPrincipal {
+    font-size: 26px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
+    padding: 90px 0px;
+    text-align: center;
+    cursor: default;
+    margin-top: 20px;
+}

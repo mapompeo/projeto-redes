@@ -56,14 +56,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: var(--backgroundHeader);
     color: var(--letra);
     z-index: 100;
-    transition: all 0.4s;
-}
-header.scrolled {
-    background-color: var(--backgroundHeader); 
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); 
+    transition: all 0.3s;
 }
 
 header nav {
@@ -97,9 +93,14 @@ header nav .logo img {
 
 .hover:hover {
     backdrop-filter: blur(40px) saturate(70%) brightness(90%);
-    background-color: rgba(59, 59, 59);
+    background-color: rgba(59, 59, 59, 0.473);
 }
 
+
+header.scrolled {
+    background-color: var(--backgroundHeader); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); 
+}
 
 /* FINAL HEADER */
 
@@ -120,9 +121,6 @@ header nav li {
     transition: 0.3s;
     margin: 5px;
 }
-.dropDown .dropMenu a:hover{
-    background-color:  var(--backgroundHover);
-}
 
 .dropDown:hover .dropMenu {
     display: block;
@@ -136,138 +134,6 @@ header nav li {
 /* FINAL MENU DE DROPDOWN */
 
 
-
-/* TELA PRINCIPAL */
-.principal {
-    background-image: url('../src/images/icons/giphy.gif');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.blur {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    backdrop-filter: blur(30px) saturate(100%) brightness(40%) contrast(120%);
-}
-
-.principalEsquerda {
-    width: 50%;
-    height: 90vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.logoPrincipal {
-    width: 420px;
-    margin-top: 100px;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
-    transition: all 0.3s;
-}
-
-.logoPrincipal:hover {
-    transform: scale(110%);
-    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
-}
-
-.principalDireita {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    padding-right: 90px;
-}
-
-.titulo {
-    transition: all 0.3s;
-    font-weight: bold;
-    font-size: 170px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
-    cursor: default;
-}
-
-.titulo:hover {
-    text-shadow: 10px 10px 5px black;
-}
-
-.paragrafoPrincipal {
-    font-size: 24px;
-    font-weight: bold;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
-    padding: 90px 0px;
-    text-align: center;
-    cursor: default;
-}
-.flecha{
-    width: 60px;
-    transition: all 0.3s;
-}
-.flecha:hover{
-    width: 60px;
-    transform: scale(115%);
-}
-
-
-/* FINAL TELA PRINCIPAL */
-
-
-
-/* PROJETOS */
-
-.conteudo {
-    font-size: 25px;
-    transition: all 0.3s;
-    border-radius: 8px;
-    border: 1px solid #000;
-    padding: 50px;
-    margin: 25px;
-    color: var(--letraEscura);
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
-
-.conteudo:hover {
-    transition: all 0.3s;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);
-}
-
-.projetos {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 50px 300px;
-}
-
-.projetos img {
-    float: left;
-    margin-right: auto;
-    width: 400px;
-    height: auto;
-    margin-right: 40px;
-    border-radius: 15px;
-}
-
-.projetos div {
-    text-align: justify;
-}
-
-.projetos h2 {
-    text-align: center;
-    padding-bottom: 30px;
-    font-weight: bold;
-}
-
-.projetos a {
-    text-decoration: none;
-    color: var(--letraEscura);
-}
-
-/* FINAL PROJETOS */
 
 
 
