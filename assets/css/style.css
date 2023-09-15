@@ -142,7 +142,7 @@ header nav li {
     display: flex;
     flex-direction: row;
     height: 100vh;
-    backdrop-filter: blur(40px) saturate(70%) brightness(90%);
+    backdrop-filter: blur(30px) saturate(120%) brightness(40%);
 }
 
 .principalEsquerda {
@@ -241,7 +241,8 @@ header nav li {
     margin-right: auto;
     width: 400px;
     height: auto;
-    padding-right: 50px;
+    margin-right: 40px;
+    border-radius: 15px;
 }
 
 .projetos div {
