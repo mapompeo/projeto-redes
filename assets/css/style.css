@@ -11,127 +11,6 @@
     --letraEscura: #000000;
 }
 
-/* GLOBAIS */
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    scroll-behavior: smooth;
-}
-
-body {
-    color: var(--letra);
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-}
-
-/* FINAL GLOBAIS */
-
-
-
-/* SCROLL BAR */
-body::-webkit-scrollbar {
-    width: 15px;
-}
-
-body::-webkit-scrollbar-track {
-    background: var(--backgroundHeader);
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: white;
-    border-radius: 20px;
-    border: 3px solid hsla(0, 0%, 0%, 0.753);
-}
-
-/* FINAL SCROLL BAR */
-
-
-
-/* HEADER */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: transparent;
-    color: var(--letra);
-    z-index: 100;
-    transition: all 0.4s;
-}
-header.scrolled {
-    background-color: var(--backgroundHeader); 
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); 
-}
-
-header nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px;
-    color: var(--letra);
-}
-
-header nav a {
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--letra);
-    margin: 0px 10px;
-    padding: 5px 15px;
-    transition: all 0.3s;
-    border-radius: 5px;
-}
-
-header nav a:first-child {
-    margin-right: auto;
-}
-
-header nav .logo img {
-    max-width: 100px;
-    max-height: 30px;
-    width: auto;
-    height: auto;
-}
-
-.hover:hover {
-    backdrop-filter: blur(40px) saturate(70%) brightness(90%);
-    background-color: rgba(59, 59, 59);
-}
-
-
-/* FINAL HEADER */
-
-
-
-/* MENU DE DROPDOWN */
-header nav li {
-    list-style-type: none;
-}
-
-.dropMenu {
-    position: absolute;
-    display: none;
-}
-
-.dropDown a {
-    display: block;
-    transition: 0.3s;
-    margin: 5px;
-}
-.dropDown .dropMenu a:hover{
-    background-color:  var(--backgroundHover);
-}
-
-.dropDown:hover .dropMenu {
-    display: block;
-    background-color: var(--backgroundHeaderSecundaria);
-    border-radius: 10px;
-    padding: 10px;
-    width: auto;
-    text-align: left;
-}
 
 /* FINAL MENU DE DROPDOWN */
 
@@ -143,6 +22,7 @@ header nav li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .blur {
@@ -242,6 +122,7 @@ header nav li {
     align-items: flex-start;
     margin: 50px auto;
     max-width: 1200px;
+    min-width: 50px;
 }
 
 .projetos img {
@@ -268,58 +149,15 @@ header nav li {
     color: var(--letraEscura);
 }
 
-/* FINAL PROJETOS */
-
-
-
-/* RODAPÉ */
-footer {
-    background-color: var(--backgroundHeader);
-    padding: 20px 350px;
-}
-
-.rodape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-}
-
-hr {
-    display: block;
-    margin: 30px;
-    border-style: inset;
-    border-width: 1px;
-    border-radius: 50px;
-}
-
-.imagemHeader {
-    max-width: 100px;
-    max-height: 30px;
-    width: auto;
-    height: auto;
-    padding: 0px 20px;
-    filter: invert(100%);
-}
-
-.logoHeader {
-    padding-right: 20px;
-    max-width: 100px;
-    max-height: 30px;
-    width: auto;
-    height: auto;
-}
-
-.copyright {
-    padding-right: 90px;
-}
-
-/* FINAL RODAPÉ */
-
 
 
 /* RESPONSIVO */
+@media (max-width: 1120px) {
+    .titulo {
+        font-size: 130px;
+    }
+
+}
 @media (max-width: 680px) {
     header nav {
         flex-direction: column;
@@ -338,8 +176,10 @@ hr {
         max-width: 80px;
         max-height: 24px;
     }
+
+    .titulo {
+        font-size: 50px;
+    }
 }
 
 /* FINAL RESPONSIVO */
-
-
