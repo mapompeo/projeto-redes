@@ -14,7 +14,7 @@
 
 /* TELA PRINCIPAL */
 .principal {
-    background-image: url('../src/images/icons/giphy.gif');
+    background-image: url('../src/images/footer/giphy.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,17 +37,14 @@
     align-items: center;
 }
 
-/* .logoPrincipal {
-    width: 420px;
-    margin-top: 100px;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
-    transition: all 0.3s;
+.logoPrincipal {
+    background-image: url('../src/images/icons/megadev/svg/logo-black.svg');
 }
 
 .logoPrincipal:hover {
     transform: scale(110%);
     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
-} */
+}
 
 .principalDireita {
     display: flex;

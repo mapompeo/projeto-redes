@@ -68,21 +68,43 @@
 /* FINAL TELA PRINCIPAL */
 
 /* CONTEÚDO */
-
 .principalBaixo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin-left: 70px;
+    border: solid black;
 }
 
 .fluxograma{
-    border: solid black 2px;
-    color: black;
+    font-size: 25px;
+    transition: all 0.3s;
+    border-radius: 8px;
+    border: 1px solid #000;
+    color: var(--letraEscura);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 15vw;
+    height: 80px;
+    margin-right: 800px;
+    text-align: center;
+    justify-content: center;
 }
 
+.algoritmos{
+    font-size: 25px;
+    transition: all 0.3s;
+    border-radius: 8px;
+    border: 1px solid #000;
+    color: var(--letraEscura);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer; 
+}
+
+.titulo-01,
+.titulo-02{
+    padding: 10px;
+}
 
 
 
