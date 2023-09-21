@@ -89,7 +89,6 @@
 
 
 /* PROJETOS */
-
 .conteudo {
     font-size: 25px;
     transition: all 0.3s;
@@ -141,37 +140,3 @@
     color: var(--letraEscura);
 }
 
-
-
-/* RESPONSIVO */
-@media (max-width: 1120px) {
-    .titulo {
-        font-size: 130px;
-    }
-
-}
-@media (max-width: 680px) {
-    header nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    header nav a {
-        margin: 10px 0;
-    }
-
-    header nav a:first-child {
-        margin-right: 0;
-    }
-
-    header nav a img {
-        max-width: 80px;
-        max-height: 24px;
-    }
-
-    .titulo {
-        font-size: 50px;
-    }
-}
-
-/* FINAL RESPONSIVO */
