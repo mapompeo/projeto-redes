@@ -9,19 +9,12 @@ O site agora está disponível para estudantes que desejam aprender e aprimorar 
 
 Uma das características-chave do projeto é a interatividade, que está totalmente implementada. O site incorpora elementos interativos, como quizzes, desafios de codificação e fóruns de discussão, permitindo a participação ativa dos usuários e promovendo a colaboração entre estudantes.
 
-O design do site foi cuidadosamente elaborado para garantir uma experiência de usuário atraente e intuitiva. O site é responsivo, adaptando-se perfeitamente a diferentes dispositivos, como computadores, tablets e smartphones.
+Para facilitar a pesquisa e navegação, o conteúdo está organizado de maneira eficiente, com um sistema de categorização por tópicos. Isso permite que os usuários encontrem facilmente os conteúdos de seu interesse.
 
-Para facilitar a pesquisa e navegação, o conteúdo está organizado de maneira eficiente, com um sistema de categorização e etiquetagem. Isso permite que os usuários encontrem facilmente os tópicos de seu interesse.
-
-Recursos multimídia, incluindo vídeos explicativos, gráficos e imagens, enriquecem a experiência de aprendizado.
-
-O banco de dados integrado armazena informações do usuário, como o progresso nos cursos e os resultados de avaliações, tornando o acompanhamento do aprendizado simples e eficaz.
-
-Após a conclusão do projeto, o site foi lançado e promovido com sucesso. Agora, ele é uma fonte valiosa de conhecimento e recursos para estudantes interessados em programação, proporcionando uma experiência de aprendizado enriquecedora e contínua. Estamos satisfeitos por ter criado uma plataforma que capacita estudantes na jornada de programação no presente e no futuro.
+Após a conclusão do projeto, o site foi lançado no [Netflify] (https://megadev-senai.netlify.app/) e promovido com sucesso. Agora, ele é uma fonte valiosa de conhecimento e recursos para estudantes interessados em programação, proporcionando uma experiência de aprendizado enriquecedora e contínua. Estamos satisfeitos por ter criado uma plataforma que capacita estudantes na jornada de programação no presente e no futuro da instituição do SENAI e também de qualquer outra grande formadora de profissionais!
 
 **Equipe do Projeto:**
 
->Líder do Projeto: Matheus Pompeo Desenvolvedores Front-end: @mapompeo
->Desenvolvedores Back-end: [Nomes]
->Designer: [Nome]
->Gerente de Conteúdo: [Nome]
+>Líder do Projeto: [Matheus Pompeo] (https://github.com/mapompeo)
+>Desenvolvedores Front-end: [José] (https://github.com/naasdd), [Kauã] (https://github.com/kauuaa), [Matheus] (https://github.com/mapompeo) e [Nathan] (#)
+>Coordenador geral e professor responsável: [Carlos] (https://github.com/Prof-Carlos-Senai)
