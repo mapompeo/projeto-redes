@@ -1,8 +1,8 @@
-<div align="center">**Situação de Aprendizagem no SENAI**: Construção de um [**"MEGA"** site](https://megadev-senai.netlify.app/) </div>
+# Situação de Aprendizagem no SENAI: Construção de um [**"MEGA"** site](https://megadev-senai.netlify.app/)
 
 <div align="justify">
 
-**Descrição do Projeto:**
+## Descrição do Projeto:
 
 >Com orgulho, apresentamos nosso site educacional abrangente dedicado ao aprendizado de programação. Este projeto resultou na criação de uma plataforma online completa que concentra e organiza todos os conhecimentos adquiridos ao longo do curso, abrangendo tópicos como fluxogramas, algoritmos, CSS, HTML, JavaScript, banco de dados e outros aspectos relacionados à programação. O site agora está disponível para estudantes que desejam aprender e aprimorar suas habilidades em programação. A estrutura do site facilita o acesso ao conteúdo, com seções dedicadas a cada tópico. Cada seção contém tutoriais, exemplos de código, explicações detalhadas e exercícios práticos.
 
@@ -12,18 +12,23 @@ Após a conclusão do projeto, o site foi lançado no [Netlify](https://megadev-
 
 </div>
 
-**Equipe do Projeto:**
+## Equipe do Projeto:
 
 <div align="justify">
 
-**Líder do Projeto:** [Matheus Pompeo](https://github.com/mapompeo).
+### **Líder do Projeto:**
+> - [Matheus Pompeo](https://github.com/mapompeo).
+> - @mapompeo
 
-**Desenvolvedores Front-end:**
-> - [José Gabriel](https://github.com/naasdd)
-> - [Kauã Biasebetti](https://github.com/kauuaa)
-> - [Matheus Pompeo](https://github.com/mapompeo)
-> - [Nathan Reichert](#)
+### **Desenvolvedores Front-end:**
+> - [José Gabriel](https://github.com/naasdd);
+> - [Kauã Biasebetti](https://github.com/kauuaa);
+> - [Matheus Pompeo](https://github.com/mapompeo);
+> - [Nathan Reichert](#).
 
-**Coordenador Geral e Professor Responsável:** [Carlos Roberto](https://github.com/Prof-Carlos-Senai) 
-
+### **Coordenador Geral e Professor Responsável:**
+> - [Carlos Roberto](https://github.com/Prof-Carlos-Senai).
 </div>
+
+> [!NOTE]
+> **Este projeto foi realizado no segundo semestre de 2023 no _[SENAI](https://maps.app.goo.gl/Jw1hZ8uvuVqV3V9E9)_ de _[Tijucas SC](https://maps.app.goo.gl/UFumcc5hjGymGFSY7)_.**
