@@ -1,4 +1,4 @@
-**Situação de Aprendizgem no SENAI**: Construção de um **"MEGA"** site
+**Situação de Aprendizgem no SENAI**: Construção de um [**"MEGA"** site](https://megadev-senai.netlify.app/)
 
 
 **Descrição do Projeto:**
@@ -11,10 +11,10 @@ Uma das características-chave do projeto é a interatividade, que está totalme
 
 Para facilitar a pesquisa e navegação, o conteúdo está organizado de maneira eficiente, com um sistema de categorização por tópicos. Isso permite que os usuários encontrem facilmente os conteúdos de seu interesse.
 
-Após a conclusão do projeto, o site foi lançado no [Netflify] (https://megadev-senai.netlify.app/) e promovido com sucesso. Agora, ele é uma fonte valiosa de conhecimento e recursos para estudantes interessados em programação, proporcionando uma experiência de aprendizado enriquecedora e contínua. Estamos satisfeitos por ter criado uma plataforma que capacita estudantes na jornada de programação no presente e no futuro da instituição do SENAI e também de qualquer outra grande formadora de profissionais!
+Após a conclusão do projeto, o site foi lançado no [Netflify](https://megadev-senai.netlify.app/) e promovido com sucesso. Agora, ele é uma fonte valiosa de conhecimento e recursos para estudantes interessados em programação, proporcionando uma experiência de aprendizado enriquecedora e contínua. Estamos satisfeitos por ter criado uma plataforma que capacita estudantes na jornada de programação no presente e no futuro da instituição do SENAI e também de qualquer outra grande formadora de profissionais!
 
 **Equipe do Projeto:**
 
->Líder do Projeto: [Matheus Pompeo] (https://github.com/mapompeo)
->Desenvolvedores Front-end: [José] (https://github.com/naasdd), [Kauã] (https://github.com/kauuaa), [Matheus] (https://github.com/mapompeo) e [Nathan] (#)
->Coordenador geral e professor responsável: [Carlos] (https://github.com/Prof-Carlos-Senai)
+>Líder do Projeto: [Matheus Pompeo](https://github.com/mapompeo)
+>Desenvolvedores Front-end: [José](https://github.com/naasdd), [Kauã](https://github.com/kauuaa), [Matheus](https://github.com/mapompeo) e [Nathan](#)
+>Coordenador geral e professor responsável: [Carlos](https://github.com/Prof-Carlos-Senai)
