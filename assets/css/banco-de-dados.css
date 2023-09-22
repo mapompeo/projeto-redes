@@ -73,6 +73,7 @@
 .conteudo{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .infos, .infoDer, .infoMer{
@@ -82,26 +83,16 @@
     max-width: 1000px;
 }
 
-.infos h2{
-    font-size: 80px;
-    margin-bottom: 40px;
-}
-.infos p{
-    font-size: 30px;
-    margin-bottom: 200px;
-    text-decoration: none;
-    
-}
-
-.infoDer h2, .infoMer h2{
-    font-size: 40px;
+.infos h2, .infoDer h2, .infoMer h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.575);
 
 }
-.infoDer p, .infoMer p{
-    font-size: 30px;
-    margin-bottom: 200px;
+.infos p, .infoDer p, .infoMer p{
+    font-size: 28px;
     text-decoration: none;
-    
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 

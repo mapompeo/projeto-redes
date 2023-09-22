@@ -86,13 +86,14 @@
     color: var(--letraEscura);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    width: 25vw;
-    height: 150px;   
+    width: 25vw ;
+    height: 30px auto;   
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.3s;
     margin: 50px;
+    margin-bottom: 100px;
     padding: 10px;
 }
 
@@ -137,11 +138,18 @@
     margin-top: 20px;
 }
 
-.tituloFluxo-02{
+.tituloFluxo-padrao{
     margin-top: 100px;
     font-size: 80px;
     margin-bottom: 40px;
     text-shadow: rgb(112, 111, 111) 1px 0 10px;
 }
 
+.p-fluxo{
+    margin-top: 40px;
+}
+
+li{
+    margin-top: 20px;
+}
 /* FIM CONTEÚDO */

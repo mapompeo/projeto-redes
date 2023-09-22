@@ -11,6 +11,8 @@
     --letraEscura: #000000;
 }
 
+
+
 /* GLOBAIS */
 * {
     margin: 0;
@@ -26,52 +28,7 @@ body {
     color: var(--letra);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
-
 /* FINAL GLOBAIS */
-
-/* MENU DE DROPDOWN */
-header nav li {
-    list-style-type: none;
-}
-
-.dropMenu {
-    position: absolute;
-    display: none;
-}
-
-.dropDown a {
-    display: block;
-    transition: 0.3s;
-    margin: 5px;
-}
-
-.dropDown:hover .dropMenu {
-    display: block;
-    background-color: var(--backgroundHeaderSecundaria);
-    border-radius: 10px;
-    padding: 10px;
-    width: auto;
-    text-align: left;
-}
-/* FINAL MENU DE DROPDOWN */
-
-
-
-/* SCROLL BAR */
-body::-webkit-scrollbar {
-    width: 15px;
-}
-
-body::-webkit-scrollbar-track {
-    background: var(--backgroundHeader);
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: white;
-    border-radius: 20px;
-    border: 3px solid hsla(0, 0%, 0%, 0.753);
-}
-/* FINAL SCROLL BAR */
 
 
 
@@ -120,12 +77,10 @@ header nav .logo img {
     background-color: var(--backgroundHover);
 }
 
-
 header.scrolled {
     background-color: var(--backgroundHeader); 
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); 
 }
-
 /* FINAL HEADER */
 
 
@@ -154,7 +109,6 @@ header nav li {
     width: auto;
     text-align: left;
 }
-
 /* FINAL MENU DE DROPDOWN */
 
 
@@ -216,3 +170,20 @@ hr {
     padding-right: 90px;
 }
 /* FINAL RODAPÉ */
+
+
+/* SCROLL BAR */
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--backgroundHeader);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid hsla(0, 0%, 0%, 0.753);
+}
+/* FINAL SCROLL BAR */
