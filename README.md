@@ -1,7 +1,5 @@
 # Situação de Aprendizagem no SENAI: Construção de um [**"MEGA"** site](https://megadev-senai.netlify.app/)
-
 <div align="justify">
-
 ## Descrição do Projeto:
 
 Com orgulho, apresentamos nosso site educacional abrangente dedicado ao aprendizado de programação. Este projeto resultou na criação de uma plataforma online completa que concentra e organiza todos os conhecimentos adquiridos ao longo do curso, abrangendo tópicos como fluxogramas, algoritmos, CSS, HTML, JavaScript, banco de dados e outros aspectos relacionados à programação. O site agora está disponível para estudantes que desejam aprender e aprimorar suas habilidades em programação. A estrutura do site facilita o acesso ao conteúdo, com seções dedicadas a cada tópico. Cada seção contém tutoriais, exemplos de código, explicações detalhadas e exercícios práticos.
