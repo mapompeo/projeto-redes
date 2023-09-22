@@ -13,7 +13,7 @@
 
 /* TELA PRINCIPAL */
 .principal {
-    background-image: url('../src/images/icons/giphy.gif');
+    background-image: url('../src/images/footer/giphy.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: row;
     height: 100vh;
-    backdrop-filter: blur(30px) saturate(100%) brightness(40%) contrast(120%);
+    backdrop-filter: blur(80px) saturate(80%) brightness(60%) contrast(90%);
 }
 .principalDireita {
     display: flex;
@@ -38,7 +38,7 @@
 .titulo {
     transition: all 0.3s;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 120px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
     cursor: default;
 }
@@ -77,22 +77,33 @@
 }
 
 .infos, .infoDer, .infoMer{
-    margin: 100px auto;
+    margin: 80px auto;
     color: black;
     text-align: center;
-    max-width: 1000px;
+    max-width: 1200px;
+    background-color: rgb(230,230,230);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
 .infos h2, .infoDer h2, .infoMer h2{
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 70px;
+    margin-bottom: 40px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.575);
 
 }
 .infos p, .infoDer p, .infoMer p{
-    font-size: 28px;
+    font-size: 30px;
     text-decoration: none;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.conteudo img{
+    border: solid 1px black;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
 
