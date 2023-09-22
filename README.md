@@ -1,7 +1,5 @@
 # Situação de Aprendizagem no SENAI: Construção de um [**"MEGA"** site](https://megadev-senai.netlify.app/)
 
---
-
 <div align="justify">
 
 ## Descrição do Projeto:
