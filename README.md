@@ -1,4 +1,4 @@
-<div align="center">**Situação de Aprendizagem no SENAI**: Construção de um [**"MEGA"** site](https://megadev-senai.netlify.app/) </div>
+<div align="center"> **Situação de Aprendizagem no SENAI**: Construção de um [**"MEGA"** site](https://megadev-senai.netlify.app/) </div>
 
 <div align="justify">
 
@@ -14,16 +14,20 @@ Após a conclusão do projeto, o site foi lançado no [Netlify](https://megadev-
 
 **Equipe do Projeto:**
 
-<div align="justify">
+<div align="center">
 
-**Líder do Projeto:** [Matheus Pompeo](https://github.com/mapompeo).
+**Líder do Projeto:**
+> - [Matheus Pompeo](https://github.com/mapompeo).
 
 **Desenvolvedores Front-end:**
-> - [José Gabriel](https://github.com/naasdd)
-> - [Kauã Biasebetti](https://github.com/kauuaa)
-> - [Matheus Pompeo](https://github.com/mapompeo)
-> - [Nathan Reichert](#)
+> - [José Gabriel](https://github.com/naasdd);
+> - [Kauã Biasebetti](https://github.com/kauuaa);
+> - [Matheus Pompeo](https://github.com/mapompeo);
+> - [Nathan Reichert](#).
 
-**Coordenador Geral e Professor Responsável:** [Carlos Roberto](https://github.com/Prof-Carlos-Senai) 
-
+**Coordenador Geral e Professor Responsável:**
+> - [Carlos Roberto](https://github.com/Prof-Carlos-Senai).
 </div>
+
+> [!NOTE]
+> Este projeto foi criado no segundo semestre de 2023 no [SENAI](https://maps.app.goo.gl/Jw1hZ8uvuVqV3V9E9) de [Tijucas SC](https://maps.app.goo.gl/UFumcc5hjGymGFSY7).
