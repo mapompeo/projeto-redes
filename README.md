@@ -8,7 +8,7 @@ Com orgulho, apresentamos nosso site educacional abrangente dedicado ao aprendiz
 
 Para facilitar a pesquisa e navegação, o conteúdo está organizado de maneira eficiente, com um sistema de categorização por tópicos. Isso permite que os usuários encontrem facilmente os conteúdos de seu interesse.
 
-Após a conclusão do projeto, o site foi lançado no [Netlify](https://megadev-senai.netlify.app/) e promovido com sucesso. Agora, ele é uma fonte valiosa de conhecimento e recursos para estudantes interessados em programação, proporcionando uma experiência de aprendizado enriquecedora e contínua. Estamos satisfeitos por ter criado uma plataforma que capacita estudantes na jornada de programação no presente e no futuro da instituição do SENAI e também de qualquer outra grande formadora de profissionais!
+Após a conclusão do projeto, o site foi lançado no _[Netlify](https://megadev-senai.netlify.app/)_ e promovido com sucesso. Agora, ele é uma fonte valiosa de conhecimento e recursos para estudantes interessados em programação, proporcionando uma experiência de aprendizado enriquecedora e contínua. Estamos satisfeitos por ter criado uma plataforma que capacita estudantes na jornada de programação no presente e no futuro da instituição do SENAI e também de qualquer outra grande formadora de profissionais!
 
 </div>
 
