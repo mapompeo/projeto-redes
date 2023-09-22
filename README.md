@@ -9,8 +9,6 @@
 
 Após a conclusão do projeto, o site foi lançado no _[Netlify](https://megadev-senai.netlify.app/)_ e promovido com sucesso. Agora, ele é uma fonte valiosa de conhecimento e recursos para estudantes interessados em programação, proporcionando uma experiência de aprendizado enriquecedora e contínua. Estamos satisfeitos por ter criado uma plataforma que capacita estudantes na jornada de programação no presente e no futuro da instituição do SENAI e também de qualquer outra grande formadora de profissionais!
 
----
-
 ## **Conclusão:**
 
   Gostaríamos de expressar nossa sincera gratidão ao nosso professor [Carlos Roberto](https://github.com/Prof-Carlos-Senai), a todos os integrantes da turma e também do projeto. Sem o apoio, orientação e conhecimento que compartilharam conosco ao longo deste projeto, não teríamos alcançado o sucesso que alcançamos.
@@ -18,8 +16,6 @@ Após a conclusão do projeto, o site foi lançado no _[Netlify](https://megadev
 Agradecemos por sua dedicação em nos ajudar a construir este "MEGA" site de aprendizado de programação. Suas orientações e conhecimentos compartilhados serão lembrados por todos nós enquanto continuamos nossa jornada no mundo da programação. Este projeto não teria sido possível sem vocês.
 
 Muito obrigado por tudo!
-
----
 
 </div>
 
@@ -40,7 +36,7 @@ Muito obrigado por tudo!
 > - [Carlos Roberto](https://github.com/Prof-Carlos-Senai).
 </div>
 
---
+---
 
 > [!NOTE]
 > **Este projeto foi realizado no segundo semestre de 2023 no _[SENAI](https://maps.app.goo.gl/Jw1hZ8uvuVqV3V9E9)_ de _[Tijucas SC](https://maps.app.goo.gl/UFumcc5hjGymGFSY7)_.**
