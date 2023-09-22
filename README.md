@@ -15,7 +15,12 @@ Após a conclusão do projeto, o site foi lançado no [Netflify](https://megadev
 
 **Equipe do Projeto:**
 
->Líder do Projeto: [Matheus Pompeo](https://github.com/mapompeo).
+**Líder do Projeto:** [Matheus Pompeo](https://github.com/mapompeo).
 
->Desenvolvedores Front-end: - [José](https://github.com/naasdd) - [Kauã](https://github.com/kauuaa) - [Matheus](https://github.com/mapompeo) - [Nathan](#)
->Coordenador geral e professor responsável: [Carlos](https://github.com/Prof-Carlos-Senai)
+**Desenvolvedores Front-end:**
+- [José](https://github.com/naasdd)
+- [Kauã](https://github.com/kauuaa)
+- [Matheus](https://github.com/mapompeo)
+- [Nathan](#)
+
+**Coordenador Geral e Professor Responsável:** [Carlos](https://github.com/Prof-Carlos-Senai)
