@@ -4,7 +4,7 @@
 
 ## Descrição do Projeto:
 
->Com orgulho, apresentamos nosso site educacional abrangente dedicado ao aprendizado de programação. Este projeto resultou na criação de uma plataforma online completa que concentra e organiza todos os conhecimentos adquiridos ao longo do curso, abrangendo tópicos como fluxogramas, algoritmos, CSS, HTML, JavaScript, banco de dados e outros aspectos relacionados à programação. O site agora está disponível para estudantes que desejam aprender e aprimorar suas habilidades em programação. A estrutura do site facilita o acesso ao conteúdo, com seções dedicadas a cada tópico. Cada seção contém tutoriais, exemplos de código, explicações detalhadas e exercícios práticos.
+Com orgulho, apresentamos nosso site educacional abrangente dedicado ao aprendizado de programação. Este projeto resultou na criação de uma plataforma online completa que concentra e organiza todos os conhecimentos adquiridos ao longo do curso, abrangendo tópicos como fluxogramas, algoritmos, CSS, HTML, JavaScript, banco de dados e outros aspectos relacionados à programação. O site agora está disponível para estudantes que desejam aprender e aprimorar suas habilidades em programação. A estrutura do site facilita o acesso ao conteúdo, com seções dedicadas a cada tópico. Cada seção contém tutoriais, exemplos de código, explicações detalhadas e exercícios práticos.
 
 Para facilitar a pesquisa e navegação, o conteúdo está organizado de maneira eficiente, com um sistema de categorização por tópicos. Isso permite que os usuários encontrem facilmente os conteúdos de seu interesse.
 
@@ -18,7 +18,7 @@ Após a conclusão do projeto, o site foi lançado no [Netlify](https://megadev-
 
 ### **Líder do Projeto:**
 > - [Matheus Pompeo](https://github.com/mapompeo).
-> - @mapompeo
+> - @naasdd
 
 ### **Desenvolvedores Front-end:**
 > - [José Gabriel](https://github.com/naasdd);
@@ -29,6 +29,8 @@ Após a conclusão do projeto, o site foi lançado no [Netlify](https://megadev-
 ### **Coordenador Geral e Professor Responsável:**
 > - [Carlos Roberto](https://github.com/Prof-Carlos-Senai).
 </div>
+
+
 
 > [!NOTE]
 > **Este projeto foi realizado no segundo semestre de 2023 no _[SENAI](https://maps.app.goo.gl/Jw1hZ8uvuVqV3V9E9)_ de _[Tijucas SC](https://maps.app.goo.gl/UFumcc5hjGymGFSY7)_.**
