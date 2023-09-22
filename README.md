@@ -17,8 +17,7 @@ Após a conclusão do projeto, o site foi lançado no [Netlify](https://megadev-
 <div align="justify">
 
 ### **Líder do Projeto:**
-> - [Matheus Pompeo](https://github.com/mapompeo).
-> - @naasdd
+> - [Matheus Pompeo](https://github.com/mapompeo)
 
 ### **Desenvolvedores Front-end:**
 > - [José Gabriel](https://github.com/naasdd);
@@ -29,8 +28,6 @@ Após a conclusão do projeto, o site foi lançado no [Netlify](https://megadev-
 ### **Coordenador Geral e Professor Responsável:**
 > - [Carlos Roberto](https://github.com/Prof-Carlos-Senai).
 </div>
-
-
 
 > [!NOTE]
 > **Este projeto foi realizado no segundo semestre de 2023 no _[SENAI](https://maps.app.goo.gl/Jw1hZ8uvuVqV3V9E9)_ de _[Tijucas SC](https://maps.app.goo.gl/UFumcc5hjGymGFSY7)_.**
