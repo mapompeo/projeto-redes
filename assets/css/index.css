@@ -38,11 +38,14 @@
 }
 
 .logoPrincipal {
+    transition: all 0.3s;
+    transform: scale(2.6);
     background-image: url('../src/images/icons/megadev/svg/logo-black.svg');
 }
 
 .logoPrincipal:hover {
-    transform: scale(110%);
+    transition: all 0.3s;
+    transform: scale(300%);
     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
 }
 
@@ -56,29 +59,23 @@
 }
 
 .titulo {
-    transition: all 0.3s;
-    font-weight: bold;
-    font-size: 170px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
-    cursor: default;
-}
-
-.titulo:hover {
-    text-shadow: 10px 10px 5px black;
+    transform: scale(30%);
 }
 
 .paragrafoPrincipal {
     font-size: 24px;
     font-weight: bold;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
-    padding: 90px 0px;
+    padding-bottom: 50px;
     text-align: center;
     cursor: default;
 }
+
 .flecha{
     width: 60px;
     transition: all 0.3s;
 }
+
 .flecha:hover{
     width: 60px;
     transform: scale(115%);
@@ -140,3 +137,4 @@
     color: var(--letraEscura);
 }
 
+/* FINAL PROJETOS */

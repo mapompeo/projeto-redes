@@ -57,7 +57,7 @@ header nav a {
     text-decoration: none;
     color: var(--letra);
     margin: 0px 10px;
-    padding: 5px 15px;
+    padding: 5px 20px;
     transition: all 0.3s;
     border-radius: 5px;
 }
@@ -66,14 +66,14 @@ header nav a:first-child {
     margin-right: auto;
 }
 
-header nav .logo img {
+header nav a img {
     max-width: 100px;
     max-height: 30px;
     width: auto;
     height: auto;
 }
 
-.hover:hover {
+header nav a:hover {
     background-color: var(--backgroundHover);
 }
 
@@ -116,10 +116,7 @@ header nav li {
 /* RODAPÉ */
 footer {
     background-color: var(--backgroundHeader);
-    padding: 20px 350px;
-}
-
-.rodape {
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,49 +124,23 @@ footer {
     flex-direction: row;
 }
 
-hr {
-    display: block;
-    margin: 30px;
-    border-style: inset;
-    border-width: 1px;
-    border-radius: 50px;
+footer p {
+    padding: 20px;
 }
 
-.imagemHeader {
+footer a img {
     max-width: 100px;
     max-height: 30px;
     padding: 3px 5px;
     width: auto;
     height: auto;
-    margin-right: 20px;
+    margin: 10px;
     filter: invert(100%);
     border-radius: 5px;
     transition: 0.3s;
 }
-
-.imagemHeader:hover{
-    background-color: var(--backgroundHover);
-}
-
-.logoHeader {
-    margin-right: 20px;
-    padding: 3px 5px;
-    max-width: 100px;
-    max-height: 30px;
-    width: auto;
-    height: auto;
-}
-
-.logoHeader:hover{
-    background-color: var(--backgroundHover);
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.copyright {
-    padding-right: 90px;
-}
 /* FINAL RODAPÉ */
+
 
 
 /* SCROLL BAR */
