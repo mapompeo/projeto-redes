@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --principal: #148BB3;
+    --secundaria: #54AECC;
+    --background: #2A4058;
+    --backgroundHeader: #333333;
+    --backgroundHeaderSecundaria: #2c2c2c;
+    --backgroundHover: #666666;
+    --letra: #ffffff;
+    --letraEscura: #000000;
+}
+
+
+
+/* TELA PRINCIPAL */
+.principal {
+    background-image: url('../src/images/footer/giphy.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.blur {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    backdrop-filter: blur(30px) saturate(100%) brightness(40%) contrast(120%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.titulo {
+    transition: all 0.3s;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+.titulo:hover, .flecha:hover {
+    transition: all 0.3s;
+    transform: scale(1.05);
+    text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.575);
+}
+
+.paragrafoPrincipal {
+    font-size: 18px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
+    padding: 90px 0px;
+    text-align: center;
+}
+
+.flecha{
+    max-width: auto;
+    max-height: auto;
+    width: 60px;
+}
+/* FINAL TELA PRINCIPAL */
+
+
+
+/* CONTEÚDO */
+.conteudo {
+    margin: 50px 260px;
+    border: solid 1px black;
+    border-radius: 8px;
+    color: var(--letraEscura);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.conteudo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+/* FINAL CONTEÚDO */

@@ -62,8 +62,12 @@ header nav a {
     border-radius: 5px;
 }
 
-header nav a:first-child {
+.logoHeader {
     margin-right: auto;
+}
+
+.logoHeader:hover {
+    background-color: transparent;
 }
 
 header nav a img {
@@ -75,6 +79,7 @@ header nav a img {
 
 header nav a:hover {
     background-color: var(--backgroundHover);
+    transform: scale(1.05);
 }
 
 header.scrolled {
@@ -138,6 +143,12 @@ footer a img {
     filter: invert(100%);
     border-radius: 5px;
     transition: 0.3s;
+}
+
+footer a img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.329));
+    filter: invert(100%);
 }
 /* FINAL RODAPÉ */
 

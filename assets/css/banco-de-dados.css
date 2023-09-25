@@ -68,8 +68,6 @@
 /* FINAL TELA PRINCIPAL */
 
 /* CONTEÚDO */
-
-
 .conteudo{
     display: flex;
     flex-direction: column;

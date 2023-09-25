@@ -13,7 +13,7 @@
 
 /* TELA PRINCIPAL */
 .principal {
-    background-image: url('../src/images/icons/giphy.gif');
+    background-image: url('../src/images/footer/giphy.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,21 +56,7 @@
     text-align: center;
     cursor: default;
 }
-
-.link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.link a, h1{
-    text-decoration: none;
-}
 /* FINAL TELA PRINCIPAL */
-
-
-
 
 
 /* CONTEÚDO */
@@ -108,9 +94,7 @@
     color: var(--letraEscura);
 }
 
-.infoFluxo-01, 
-.infoFluxo-02,
-.infoFluxo-03{
+.box{
     margin: 80px auto;
     color: black;
     text-align: center;
@@ -140,13 +124,13 @@
     margin-top: 20px;
 }
 
-img{
+main img{
     border: solid 1px black;    
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
-.tituloFluxo-padrao{
+.titulo-padrao{
     font-size: 80px;
     margin-bottom: 40px;
     text-shadow: rgb(112, 111, 111) 1px 0 10px;
@@ -156,8 +140,4 @@ img{
     margin-top: 40px;
 }
 
-
-ul{
-    margin-top: 30px;
-}
 /* FIM CONTEÚDO */
