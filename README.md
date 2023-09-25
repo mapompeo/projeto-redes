@@ -23,16 +23,16 @@ Muito obrigado por tudo!
 
 <div align="justify">
 
-### **Líder do Projeto:**
+**Líder do Projeto:**
 - [Matheus Pompeo](https://github.com/mapompeo)
 
-### **Desenvolvedores Front-end:**
+**Desenvolvedores Front-end:**
 - [José Gabriel](https://github.com/naasdd);
 - [Kauã Biasebetti](https://github.com/kauuaa);
 -  [Matheus Pompeo](https://github.com/mapompeo);
-- [Nathan Reichert](#).
+- [Nathan Reichert](https://github.com/1snxw).
 
-### **Coordenador Geral e Professor Responsável:**
+**Coordenador Geral e Professor Responsável:**
 - [Carlos Roberto](https://github.com/Prof-Carlos-Senai).
 </div>
 
