@@ -24,7 +24,7 @@ Muito obrigado por tudo!
 <div align="justify">
 
 **Líder do Projeto:**
-- [Matheus Pompeo](https://github.com/mapompeo)
+- [Matheus Pompeo](https://github.com/mapompeo).
 
 **Desenvolvedores Front-end:**
 - [José Gabriel](https://github.com/naasdd);
