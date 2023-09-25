@@ -56,35 +56,16 @@
     text-align: center;
     cursor: default;
 }
+
+.flecha{
+    max-width: auto;
+    max-height: auto;
+    width: 60px;
+}
 /* FINAL TELA PRINCIPAL */
 
 
 /* CONTEÚDO */
-.titulo-01,
-.titulo-02{
-    font-size: 35px;
-    transition: all 0.3s;
-    border-radius: 8px;
-    border: 1px solid #ffffff;
-    color: white;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    width: 25vw ;
-    height: 30px auto;   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s;
-    margin: 10px 20px;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.titulo-01:hover,
-.titulo-02:hover{
-    transform: scale(105%);
-}
-
 .conteudo{
     font-size: 25px;
     transition: all 0.3s;
@@ -94,24 +75,32 @@
     color: var(--letraEscura);
 }
 
-.box{
-    margin: 80px auto;
-    color: black;
+.titulo-padrao{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
     text-align: center;
-    max-width: 1200px;
-    background-color: rgb(230,230,230);
-    padding: 40px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
-.tituloFluxo-01{
-    font-size: 80px;
-    margin-bottom: 40px;
-    text-shadow: rgb(112, 111, 111) 1px 0 10px;;
+.box{
+    transition: all 0.3s;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 700px;
+    min-height: 50px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: var(--letraEscura);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    padding: 50px;
+    background-color: #f1f1f1;
 }
 
-.infos > p{
+.infos  p{
     color: black;
     text-align: center;
     max-width: 1000px;
@@ -120,24 +109,20 @@
 .imagem{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-main img{
-    border: solid 1px black;    
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-}
-
-.titulo-padrao{
-    font-size: 80px;
-    margin-bottom: 40px;
-    text-shadow: rgb(112, 111, 111) 1px 0 10px;
+    margin: auto;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    width: 600px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 
 .p-fluxo{
     margin-top: 40px;
+}
+
+p{
+    margin-bottom: 30px;
 }
 
 /* FIM CONTEÚDO */

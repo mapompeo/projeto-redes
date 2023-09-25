@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: row;
     height: 100vh;
-    backdrop-filter: blur(80px) saturate(80%) brightness(60%) contrast(90%);
+    backdrop-filter: blur(30px) saturate(100%) brightness(40%) contrast(120%);
 }
 .principalDireita {
     display: flex;
@@ -61,7 +61,6 @@
 }
 
 .flecha:hover{
-    width: 60px;
     transform: scale(115%);
 }
 
@@ -75,10 +74,10 @@
 }
 
 .infos, .infoDer, .infoMer{
-    margin: 80px auto;
+    margin: 40px auto;
     color: black;
     text-align: center;
-    max-width: 1200px;
+    max-width: 700px;
     background-color: rgb(230,230,230);
     padding: 40px;
     border-radius: 30px;
@@ -86,22 +85,23 @@
 }
 
 .infos h2, .infoDer h2, .infoMer h2{
-    font-size: 70px;
+    font-size: 40px;
     margin-bottom: 40px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.575);
 
 }
 .infos p, .infoDer p, .infoMer p{
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .conteudo img{
     border: solid 1px black;
-    margin: 20px;
+    margin: 60px 20px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    width: 90%;
 }
 
 
