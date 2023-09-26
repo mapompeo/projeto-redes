@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-attachment: fixed;
+}
+
+.logo {
+    transform: scale(0.4);
+}
+
+.login {
+    display: flex;
+}
+
+.esquerda {
+    background-color: black;
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita {
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconeConta {
+    transform: scale(5);
+    margin-bottom: 60px;
+}
+
+.boxLogin {
+    background-color: #DADADA;
+    width: 80%;
+    margin: 15px 15px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.boxLogin input {
+    border: none;
+    border-radius: 100px;
+    font-size: 130%;
+    text-align: center;
+    outline: none;
+    transition: 0.3s;
+    padding: 15px 110px;
+    margin-bottom: 30px;
+}
+
+.email {
+    margin-top: 30px;
+}
+
+.boxLogin input:hover{
+    transition: 0.3s;
+    background-color: #e8e7e7;
+}
+
+.botaoLogin {
+    transition: all 0.3s;
+    background-color: #DADADA;
+    border: none;
+    padding: 15px 0px;
+    margin: 20px;
+    font-size: 130%;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+.botaoLogin:hover{
+    transition: all 0.3s;
+    background-color: #e8e7e7;
+}
+
+.circulo {
+    transition: all 0.3s;
+    background-color: #DADADA;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circulo:hover {
+    transition: all 0.3s;
+    background-color: #e8e7e7;
+}
+
+.voltar {
+    transform: scale(2);
+}
