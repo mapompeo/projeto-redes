@@ -3,7 +3,7 @@ let resOrdenada = document.getElementById('resOrdenada')
 let resMedia = document.getElementById('resMedia')
 let array = []
 
-function gerar(){
+function gerar03() {
     let random = 0
     array = []
     
@@ -11,11 +11,10 @@ function gerar(){
         random = Math.floor(Math.random() * (50 - 1 + 1) + 1)
         array.push(random)
     }
-    resValores.innerHTML = `Valores = [${array}]`
+    resValores.innerHTML = `Valores aleatórios: ${array.join(", ")}.`
 }
 
-
-function cresc(){
+function cresc03( ){
 
     for(i = 0; i < array.length; i++){
         let atual = array[i]
@@ -28,16 +27,13 @@ function cresc(){
                 posicao = j
             }
         }
-
         array[i] = menor
         array[posicao] = atual
-        
-    }
-    
+    }   
     resOrdenada.innerHTML = `Os valores em ordem crescente são = [${array}]`
 }
 
-function decre(){
+function decre03(){
     for(i = 0; i < array.length; i++){
         let atual = array[i]
         let menor = atual
@@ -54,13 +50,10 @@ function decre(){
         array[posicao] = atual
         
     }
-    
-
     resOrdenada.innerHTML = `Os valores em ordem decrescente são = [${array.reverse()}]`
 }
 
-
-function media(){
+function media03(){
     let par = 0
     let impar = 0
     let mediaPar = 0
@@ -78,7 +71,5 @@ function media(){
 
     mediaPar = mediaPar/par
     mediaImpar = mediaImpar/impar
-
-
     resMedia.innerHTML = `A média dos números pares é ${mediaPar.toFixed(2)}. <br>A média dos números impares é ${mediaImpar.toFixed(2)}.`
 }

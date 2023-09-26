@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Média Aritmética e ponderada</title>
+    <title>Média Aritmética e Ponderada</title>
     <link rel="stylesheet" href="../../.././css/style.css">
     <link rel="stylesheet" href="../../../css/algoritmos.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -29,12 +29,15 @@
 <main>
     
         <h1>Cálculo de média aritmética e ponderada</h1>
-        <p>Insira suas notas</p><br><br>
-        <input type="text" id="n1"><br>
-        <input type="text" id="n2"><br>
-        <input type="text" id="n3"><br>
-        <button onclick="aritmetica()">Aritmética</button>
-        <button onclick="ponderada()">Ponderada</button>
+        <p>Este algoritmo pode cálcular a média de 3 notas, podendo ser médias 
+            aritméticas, ou médias ponderadas (notas com peso)</p><br>
+        <input type="text" id="n1" placeholder="Insira sua nota"><br>
+        <input type="text" id="n3" placeholder="Insira sua nota"><br>
+        <input type="text" id="n2" placeholder="Insira sua nota"><br>
+        <div class="botoes">
+            <button onclick="aritmetica()">Aritmética</button>
+            <button onclick="ponderada()">Ponderada</button>
+        </div>
         <br><br>
         <p id="res"></p>
 </main>

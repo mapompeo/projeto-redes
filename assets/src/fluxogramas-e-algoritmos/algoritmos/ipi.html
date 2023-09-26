@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo de Fatorial</title>
+    <title>Cálculo de IPI</title>
     <link rel="stylesheet" href="../../.././css/style.css">
     <link rel="stylesheet" href="../../../css/algoritmos.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -27,18 +27,31 @@
         </nav>
     </header>    
 <main>
+    <h1>Cálculo de IPI</h1>
+    <p>Insira o valor de IPI</p>
+    <input type="text" id="ipi"><br><br>
     
-        <h1>Cálculo de média aritmética e ponderada</h1>
-        <p>Insira suas notas</p><br><br>
-        <input type="text" id="n1"><br>
-        <input type="text" id="n2"><br>
-        <input type="text" id="n3"><br>
-        <button onclick="aritmetica()">Aritmética</button>
-        <button onclick="ponderada()">Ponderada</button>
-        <br><br>
+    <div class="container">
+        <div class="esquerda">
+            <p>Insira o código da primeira peça</p>
+            <input type="text" id="p1_cod"><br><br>
+            <p>Insira o valor da primeira peça</p>
+            <input type="text" id="p1_valor"><br>
+            <p>Insira a quantidade necessária da primeira peça</p>
+            <input type="text" id="p1_qtdn">
+        </div>
+        <div class="direita">
+            <p>Insira o código da segunda peça</p>
+            <input type="text" id="p2_cod"><br><br>
+            <p>Insira o valor da segunda peça</p>
+            <input type="text" id="p2_valor"><br>
+            <p>Insira a quantidade necessária da segunda peça</p>
+            <input type="text" id="p2_qtdn">
+        </div>
+    </div>
+        <button onclick="calcular()">Calcular</button>
         <p id="res"></p>
 </main>
-
-    <script src="../../../js/mediaArPo.js"></script>
+    <script src="../../../js/ipi.js"></script>
 </body>
 </html>

@@ -124,4 +124,12 @@
     transform: scale(1.01);
 }
 
+.botao {
+    border: solid 1px black;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
 /* FINAL CONTEÚDO */
