@@ -7,6 +7,7 @@
 
 body {
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 .logo {
@@ -54,10 +55,11 @@ body {
     font-size: 130%;
     text-align: center;
     outline: none;
-    transition: 0.3s;
-    padding: 15px 110px;
+    transition: all 0.3s;
+    padding: 15px 10px;
     margin-bottom: 30px;
     font-weight: bolder;
+    width: 80%;
 }
 
 .email {
