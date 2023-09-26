@@ -45,16 +45,21 @@
     text-align: center;
 }
 
-.titulo:hover, .flecha:hover {
+.titulo:hover {
     transition: all 0.3s;
-    transform: scale(1.05);
     text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.575);
 }
 
+.flecha:hover {
+    transition: all 0.3s;
+    text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.575);
+    transform: scale(1.05);
+}
+
 .paragrafoPrincipal {
-    font-size: 18px;
+    font-size: 24px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
-    padding: 90px 0px;
+    padding: 60px 0px;
     text-align: center;
 }
 
@@ -102,6 +107,7 @@
 }
 
 #imagens {
+    transition: all 0.3s;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -111,6 +117,11 @@
     height: auto;
     width: 600px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#imagens:hover {
+    transition: all 0.3s;
+    transform: scale(1.01);
 }
 
 /* FINAL CONTEÚDO */
