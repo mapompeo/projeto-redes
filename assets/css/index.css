@@ -13,21 +13,6 @@
 
 
 /* TELA PRINCIPAL */
-.principal {
-    background-image: url('../src/images/footer/giphy.gif');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-}
-
-.blur {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    backdrop-filter: blur(30px) saturate(100%) brightness(40%) contrast(120%);
-}
-
 .principalEsquerda {
     width: 50%;
     height: 90vh;

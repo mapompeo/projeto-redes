@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megadev | Banco de Dados</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/banco-de-dados.css">
+    <link rel="stylesheet" href="/assets/css/conteudo.css">
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/mapompeo/projeto-redes/main/assets/src/images/icons/megadev/favicon/megadev-favicon-white.png" type="image/x-icon">
 </head>
 <body>
@@ -29,33 +29,41 @@
     <main>
         <div class="principal">
             <div class="blur">
-                <div class="principalDireita">
-                    <h1 class="titulo">Banco de dados</h1>
-                    <p class="paragrafoPrincipal">Entenda o que são e para que servem!</p>
+                <div class="container">
+                    <h1 class="titulo">Banco de Dados</h1>
+                    <p class="paragrafoPrincipal">Conheça um pouco da lógica deste conteúdo!</p>
                     <a href="#anchor"><img src="./assets/src/images/footer/arrow-down.png" alt="Flecha para baixo" class="flecha"></a>
                 </div>
             </div>
         </div>
-        <div class="conteudo">
-
-            <div class="infos" id="anchor">
-                <h2>O que são Banco de dados?</h2>
-                <p>Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema
-                     de computador. Um banco de dados é geralmente controlado por um sistema de gerenciamento de banco de dados (DBMS).</p>
+        <div>
+            <div class="conteudo" id="anchor">
+                <h2>O que é Banco de dados?</h2>
+                <p>Um banco de dados é um sistema organizado para armazenar, gerenciar e recuperar informações de maneira eficiente. Ele consiste em uma coleção estruturada de dados que podem ser acessados, atualizados e consultados conforme necessário. Os bancos de dados são amplamente utilizados em aplicativos de software para armazenar informações de forma confiável e acessível, permitindo a manipulação de dados de maneira eficaz e segura.</p>
             </div>
-
-            <div class="infoMer">
-                <h2>Modelo entidade relacionamento</h2>
-                <p>O MER (Modelo Entidade Relacionamento) é utilizado para descrever os objetos do
-                     mundo real através de entidades,
-                     com suas propriedades que são os atributos e os seus relacionamentos.</p>
-                <img src="./assets/src/images/outros/ex-MER-01.png" alt="Exemplo de MER">
-            </div>
-            <div class="infoDer">
-                <h2>Diagrama entidade relacionamento</h2>
-                <p>O DER (Diagrama Entidade-Relacionamento) é utilizado para representar em 
-                    forma gráfica o que foi descrito no MER (Modelo Entidade Relacionamento)</p>
-                    <img src="./assets/src/images/outros/ex-DER-01.png" alt="Exemplo de DER">
+            <div class="conteudo">
+                <h2>Quais os métodos para representar?</h2>
+                <p>Bancos de dados podem ser representados de várias maneiras, dependendo da finalidade e da complexidade do sistema. Uma representação típica de banco de dados envolve o uso de diagramas de modelo de dados, como o Diagrama de Entidade e Relacionamento (DER) ou o Diagrama de Modelo Relacional. Aqui está uma breve visão geral de como representar um banco de dados.</p>
+                <div class="conteudoDentro">
+                    <h2>Modelo entidade relacionamento</h2>
+                    <p>Em bancos de dados, "MER" geralmente se refere a "Modelo Entidade-Relacionamento". Este é um modelo conceitual amplamente utilizado para projetar esquemas de banco de dados. O Modelo Entidade-Relacionamento descreve as entidades (objetos ou conceitos do mundo real) e os relacionamentos entre essas entidades.</p>
+                    <p>Os principais componentes do MER incluem:</p>
+                    <ul>
+                        <li>Entidades: São os objetos do mundo real que você deseja representar no banco de dados, como clientes, produtos ou pedidos.</li>
+                        <li>Atributos: São características ou propriedades das entidades, como nome, idade, preço ou data de criação.</li>
+                        <li>Relacionamentos: Descrevem como as entidades estão conectadas umas às outras. Por exemplo, um cliente pode fazer vários pedidos, o que cria um relacionamento entre a entidade "Cliente" e a entidade "Pedido".</li>
+                        <li>Chaves Primárias: São atributos únicos que identificam exclusivamente cada instância de uma entidade. Por exemplo, o número de identificação de um cliente pode ser a chave primária da entidade "Cliente".</li>
+                    </ul>
+                    <img id="imagens" src="./assets/src/images/outros/ex-MER-01.png" alt="Exemplo de MER">
+                    <p>O Modelo Entidade-Relacionamento é uma ferramenta importante no projeto de bancos de dados, pois ajuda a definir a estrutura geral do banco de dados, facilitando a compreensão das relações entre os dados e a criação de esquemas de tabelas adequados. Ele serve como uma base para a implementação física do banco de dados em sistemas de gerenciamento de banco de dados (SGBDs) específicos, como MySQL, PostgreSQL, Oracle, entre outros.</p>
+                </div>
+                <div class="conteudoDentro">
+                    <h2>Diagrama entidade relacionamento</h2>
+                    <p>O Modelo de Entidade e Relacionamento (DER) é uma técnica de modelagem de dados usada em bancos de dados para descrever as entidades (objetos ou conceitos do mundo real), seus atributos e os relacionamentos entre essas entidades. Ele ajuda a representar visualmente a estrutura de um banco de dados, utilizando diagramas que incluem entidades como retângulos, atributos como elipses e relacionamentos como linhas conectando as entidades.</p>
+                    <img id="imagens" src="./assets/src/images/outros/ex-DER-01.png" alt="Exemplo de DER">
+                    <p>No DER, as entidades são definidas com seus atributos e chaves primárias, e os relacionamentos indicam como as entidades estão conectadas. Esse modelo ajuda os projetistas de banco de dados a entenderem e planejarem a estrutura de um banco de dados antes de implementá-lo fisicamente em um Sistema de Gerenciamento de Banco de Dados (SGBD). É uma etapa importante no desenvolvimento de sistemas de banco de dados para garantir a integridade e eficiência dos dados armazenados.</p>
+                </div>
+                <p>A representação de um banco de dados é uma parte crucial do processo de design e desenvolvimento de sistemas de banco de dados, pois ajuda a comunicar a estrutura do banco de dados para todas as partes interessadas e serve como base para a implementação e manutenção eficazes do sistema.</p>
             </div>
         </div> 
     </main>
