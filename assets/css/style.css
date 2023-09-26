@@ -88,8 +88,9 @@ header nav a:hover {
 }
 
 header.scrolled {
-    background-color: var(--backgroundHeader); 
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); 
+    background-color: transparent; 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px) saturate(100%) brightness(40%) contrast(100%);
 }
 /* FINAL HEADER */
 
