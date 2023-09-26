@@ -28,6 +28,10 @@ body {
     color: var(--letra);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
+
+li {
+    list-style-position: inside;
+}
 /* FINAL GLOBAIS */
 
 
