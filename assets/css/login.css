@@ -57,6 +57,7 @@ body {
     transition: 0.3s;
     padding: 15px 110px;
     margin-bottom: 30px;
+    font-weight: bolder;
 }
 
 .email {
@@ -78,7 +79,6 @@ body {
     border-radius: 100px;
     cursor: pointer;
     font-weight: bolder;
-    letter-spacing: 2px;
     width: 50%;
     margin-bottom: 70px;
 }
