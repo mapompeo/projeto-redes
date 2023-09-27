@@ -7,3 +7,8 @@ window.addEventListener("scroll", function() {
         header.classList.remove("scrolled");
     }
 });
+
+
+document.getElementById('voltar').addEventListener('click', function() {
+    window.history.back();
+});
