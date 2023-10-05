@@ -26,12 +26,17 @@
     transition: all 0.3s;
     transform: scale(2.6);
     background-image: url('../src/images/icons/megadev/svg/logo-black.svg');
+
 }
 
 .logoPrincipal:hover {
     transition: all 0.3s;
     transform: scale(300%);
-    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.8));
+    animation-name: logoAnimacao;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .principalDireita {
@@ -64,6 +69,44 @@
 .flecha:hover{
     width: 60px;
     transform: scale(115%);
+}
+
+   /* ANIMAÇÕES */
+   @keyframes logoAnimacao {
+    0% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 0deg;
+    }
+
+    25% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 90deg;
+    }
+
+    50% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 180deg;
+    }
+
+    75% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 270deg;
+    }
+
+    100% {
+        border-radius: 10px;
+        opacity: 0.3;
+        border-radius: 50px;
+        rotate: 360deg;
+    }
 }
 
 /* FINAL TELA PRINCIPAL */

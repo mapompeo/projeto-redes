@@ -73,6 +73,11 @@ header nav a {
 
 .logoHeader:hover {
     background-color: transparent;
+    animation-name: logoAnimacao;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 #voltar {
@@ -99,6 +104,45 @@ header.scrolled {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(30px) saturate(100%) brightness(40%) contrast(100%);
 }
+
+    /* ANIMAÇÕES */
+    @keyframes logoAnimacao {
+        0% {
+            border-radius: 10px;
+            opacity: 0.3;
+            border-radius: 50px;
+            rotate: 0deg;
+        }
+    
+        25% {
+            border-radius: 10px;
+            opacity: 0.3;
+            border-radius: 50px;
+            rotate: 90deg;
+        }
+    
+        50% {
+            border-radius: 10px;
+            opacity: 0.3;
+            border-radius: 50px;
+            rotate: 180deg;
+        }
+    
+        75% {
+            border-radius: 10px;
+            opacity: 0.3;
+            border-radius: 50px;
+            rotate: 270deg;
+        }
+    
+        100% {
+            border-radius: 10px;
+            opacity: 0.3;
+            border-radius: 50px;
+            rotate: 360deg;
+        }
+    }
+
 /* FINAL HEADER */
 
 
