@@ -25,15 +25,11 @@
 .logoPrincipal {
     transition: all 0.3s;
     transform: scale(2.6);
-    background-image: url('../src/images/icons/megadev/svg/logo-black.svg');
-
 }
 
 .logoPrincipal:hover {
-    transition: all 0.3s;
-    transform: scale(300%);
     animation-name: logoAnimacao;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-delay: 0.2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -73,42 +69,10 @@
 
    /* ANIMAÇÕES */
    @keyframes logoAnimacao {
-    0% {
-        border-radius: 10px;
-        opacity: 0.3;
-        border-radius: 50px;
-        rotate: 0deg;
-    }
-
-    25% {
-        border-radius: 10px;
-        opacity: 0.3;
-        border-radius: 50px;
-        rotate: 90deg;
-    }
-
-    50% {
-        border-radius: 10px;
-        opacity: 0.3;
-        border-radius: 50px;
-        rotate: 180deg;
-    }
-
-    75% {
-        border-radius: 10px;
-        opacity: 0.3;
-        border-radius: 50px;
-        rotate: 270deg;
-    }
-
     100% {
-        border-radius: 10px;
-        opacity: 0.3;
-        border-radius: 50px;
-        rotate: 360deg;
+        rotate: -360deg;
     }
 }
-
 /* FINAL TELA PRINCIPAL */
 
 
@@ -143,10 +107,9 @@
 
 .projetos img {
     float: left;
-    margin-right: auto;
-    width: 400px;
+    width: 300px;
     height: auto;
-    margin-right: 40px;
+    margin: 0px auto 30px auto;
     border-radius: 15px;
 }
 

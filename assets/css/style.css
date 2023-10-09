@@ -71,15 +71,6 @@ header nav a {
     margin-right: auto;
 }
 
-.logoHeader:hover {
-    background-color: transparent;
-    animation-name: logoAnimacao;
-    animation-duration: 4s;
-    animation-delay: 0.2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
 #voltar {
     background-color: #88888833;
     border-radius: 99px;
@@ -102,47 +93,8 @@ header nav a:hover, #voltar:hover {
 header.scrolled {
     background-color: transparent; 
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(30px) saturate(100%) brightness(40%) contrast(100%);
+    backdrop-filter: blur(10px) saturate(100%) brightness(40%) contrast(100%);
 }
-
-    /* ANIMAÇÕES */
-    @keyframes logoAnimacao {
-        0% {
-            border-radius: 10px;
-            opacity: 0.3;
-            border-radius: 50px;
-            rotate: 0deg;
-        }
-    
-        25% {
-            border-radius: 10px;
-            opacity: 0.3;
-            border-radius: 50px;
-            rotate: 90deg;
-        }
-    
-        50% {
-            border-radius: 10px;
-            opacity: 0.3;
-            border-radius: 50px;
-            rotate: 180deg;
-        }
-    
-        75% {
-            border-radius: 10px;
-            opacity: 0.3;
-            border-radius: 50px;
-            rotate: 270deg;
-        }
-    
-        100% {
-            border-radius: 10px;
-            opacity: 0.3;
-            border-radius: 50px;
-            rotate: 360deg;
-        }
-    }
-
 /* FINAL HEADER */
 
 
@@ -213,7 +165,7 @@ footer a img:hover{
 
 /* SCROLL BAR */
 body::-webkit-scrollbar {
-    width: 15px;
+    width: 12px;
 }
 
 body::-webkit-scrollbar-track {
