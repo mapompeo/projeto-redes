@@ -21,8 +21,17 @@
     justify-content: center;
     align-items: center;
 }
-
 .logoPrincipal {
+    transition: all 0.3s;
+    transform: scale(2.6);
+    animation-name: logoAnimacao;
+    animation-duration: 10s;
+    animation-delay: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* .logoPrincipal {
     transition: all 0.3s;
     transform: scale(2.6);
 }
@@ -33,7 +42,7 @@
     animation-delay: 0.2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-}
+} */
 
 .principalDireita {
     display: flex;
