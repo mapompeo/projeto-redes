@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: row;
     height: 100vh;
-    backdrop-filter: blur(130px) saturate(300%) brightness(40%) contrast(100%);
+    backdrop-filter: blur(150px) saturate(500%) brightness(40%) contrast(80%);
 }
 
 .container {
