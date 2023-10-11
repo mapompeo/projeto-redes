@@ -13,7 +13,7 @@
 
 
 /* TELA PRINCIPAL */
-.principalEsquerda {
+.principalDireita {
     width: 50%;
     height: 90vh;
     display: flex;
@@ -23,7 +23,7 @@
 }
 .logoPrincipal {
     transition: all 0.3s;
-    width: 30%;
+    width: 40%;
     animation-name: logoAnimacao;
     animation-duration: 40s;
     animation-delay: 0.2s;
@@ -31,30 +31,17 @@
     animation-iteration-count: infinite;
 }
 
-/* .logoPrincipal {
-    transition: all 0.3s;
-    transform: scale(2.6);
-}
-
-.logoPrincipal:hover {
-    animation-name: logoAnimacao;
-    animation-duration: 10s;
-    animation-delay: 0.2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-} */
-
-.principalDireita {
+.principalEsquerda {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 50%;
-    padding-right: 90px;
 }
 
 .titulo {
-    transform: scale(30%);
+    width: 60%;
+    margin-bottom: 0px;
 }
 
 .paragrafoPrincipal {
