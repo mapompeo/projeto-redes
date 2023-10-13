@@ -11,8 +11,6 @@
     --letraEscura: #000000;
 }
 
-
-
 /* GLOBAIS */
 * {
     margin: 0;
@@ -62,20 +60,19 @@ header nav a {
     text-decoration: none;
     color: var(--letra);
     margin: 0px 10px;
-    padding: 5px 20px;
+    padding: 5px 15px;
     transition: all 0.3s;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-.logoHeader {
+header nav a:first-child {
     margin-right: auto;
 }
 
-#voltar {
-    background-color: #88888833;
-    border-radius: 99px;
-    filter: invert(90%);
-    cursor: pointer;
+.iconHeader {
+    filter: invert(1);
+    border-radius: 20px;
+    width: 24px;
 }
 
 header nav a img {
@@ -85,9 +82,10 @@ header nav a img {
     height: auto;
 }
 
-header nav a:hover, #voltar:hover {
-    background-color: var(--backgroundHover);
+header nav a:hover  {
+    background-color: #00000025;
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 header.scrolled {
@@ -117,9 +115,10 @@ header nav li {
 
 .dropDown:hover .dropMenu {
     display: block;
-    background-color: var(--backgroundHeaderSecundaria);
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
     padding: 10px;
+    margin-right: 20px;
     width: auto;
     text-align: left;
 }
