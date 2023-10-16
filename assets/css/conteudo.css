@@ -97,6 +97,10 @@
     margin-bottom: 50px;
 }
 
+.conteudo-pointer:hover {
+    cursor: pointer;
+}
+
 .conteudo h2 {
     font-size: 24px;
     font-weight: bold;
@@ -136,6 +140,11 @@ p {
     text-align: center;
 }
 
+.exercicio{
+    cursor: pointer;
+
+}
+
 .padding-conteudo {
     margin: 50px;
 }
@@ -149,7 +158,7 @@ p {
     display: flex;
 }
 
-.btns-algo > button{
+.btns-algo > a{
     transition: all 0.3s;
     background-color: #DADADA;
     border: none;
@@ -160,11 +169,33 @@ p {
     cursor: pointer;
     font-weight: bolder;
     width: 40%;
-    margin-bottom: 70px;
+    text-align: center;
 }
 
-button:hover{
+a:hover{
     transform: scale(105%); 
 }
+
+#res_vetor,
+#res1,
+#resValores{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#res_vet_cre,
+#res_vet_decre,
+#res_soma,
+#res2,
+#res3,
+#res4,
+#resValores,
+#resOrdenada,
+#resMedia{
+    text-align: center;
+}
+
+
 
 /* FINAL CONTEÚDO */

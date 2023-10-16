@@ -15,3 +15,9 @@ function calcular(){
 
   res.innerHTML = `O valor de IPI a ser pago é = ${resposta}`
 }
+
+
+function copiar() {
+  const textoACopiar = "codigo IPI";
+  navigator.clipboard.writeText(textoACopiar);
+}
