@@ -48,7 +48,7 @@
 
 .titulo:hover {
     transition: all 0.3s;
-    text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.575);
+    text-shadow: 8px 8px 0px rgb(0, 0, 0);
 }
 
 .flecha:hover {
@@ -75,39 +75,13 @@
 
 
 /* CONTEÚDO */
-.botoesLink {
-    display: flex;
-    justify-content: center;
-}
-
-.botoesLink a {
-    transition: all 0.3s;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    max-width: auto;
-    max-height: auto;
-    width: 10vw;
-    border-radius: 5px;
-    text-align: center;
-    margin: 50px 50px;
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-}
-
-.botoesLink a:hover {
-    transition: all 0.3s;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
-    transform: scale(1.01);
-}
-
 .conteudo, .conteudoDentro {
     transition: all 0.3s;
     margin: auto;
     margin-top: 50px;
     max-width: 600px;
     min-height: 50px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
     border-radius: 8px;
     color: var(--letraEscura);
     font-size: 18px;
@@ -128,6 +102,7 @@
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
+    padding: 30px 0px;
 }
 
 p {
@@ -143,12 +118,9 @@ p {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
     border-radius: 5px;
     height: auto;
-    width: 600px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    width: 80%;
 }
 
 #imagens:hover {
@@ -163,4 +135,36 @@ p {
     border-radius: 5px;
     text-align: center;
 }
+
+.padding-conteudo {
+    margin: 50px;
+}
+
+.sub{
+    text-align: center;
+    font-weight: bold;
+}
+
+.btns-algo{
+    display: flex;
+}
+
+.btns-algo > button{
+    transition: all 0.3s;
+    background-color: #DADADA;
+    border: none;
+    padding: 15px 0px;
+    margin: 20px;
+    font-size: 110%;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 40%;
+    margin-bottom: 70px;
+}
+
+button:hover{
+    transform: scale(105%); 
+}
+
 /* FINAL CONTEÚDO */

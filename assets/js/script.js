@@ -12,3 +12,5 @@ window.addEventListener("scroll", function() {
 document.getElementById('voltar').addEventListener('click', function() {
     window.history.back();
 });
+
+console.log('não gostamos do oseias couto')

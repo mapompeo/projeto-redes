@@ -44,7 +44,6 @@
     width: 60px;
     transition: all 0.3s;
 }
-
 .flecha:hover{
     width: 60px;
     transform: scale(115%);
@@ -56,15 +55,15 @@
 }
 
 #logoAnimacao {
-    animation: scale-in-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+    animation: scale-in-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
 }
 
 #sloganAnimacao {
-    animation: scale-in-center2 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.3s both;
+    animation: scale-in-center2 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
 }
 
 #setaAnimacao {
-    animation: scale-in-center3 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.3s both;
+    animation: scale-in-center3 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.8s both;
 }
 
 

@@ -83,8 +83,7 @@ header nav a img {
 }
 
 header nav a:hover  {
-    background-color: #00000025;
-    transform: scale(1.05);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -104,6 +103,7 @@ header nav li {
 
 .dropMenu {
     position: absolute;
+    right: 0;
     display: none;
 }
 
@@ -115,6 +115,7 @@ header nav li {
 
 .dropDown:hover .dropMenu {
     display: block;
+    justify-content: end;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 8px;
     padding: 10px;
