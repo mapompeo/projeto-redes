@@ -20,6 +20,7 @@
     font: inherit;
     vertical-align: baseline;
     scroll-behavior: smooth;
+    word-wrap: break-word;
 }
 
 body {

@@ -93,6 +93,14 @@
     background-color: #f1f1f1;
 }
 
+
+.conteudoDentro {
+    background-color: white;
+    max-height: auto;
+    min-height: auto;
+    margin: 20px;
+}
+
 .conteudo {
     margin-bottom: 50px;
 }
@@ -111,10 +119,6 @@
 
 p {
     margin: 15px 0px;
-}
-
-.conteudoDentro {
-    background-color: white;
 }
 
 #imagens {
