@@ -37,6 +37,7 @@
     justify-content: center;
     width: 100%;
     padding: 50px;
+    margin: 50px;
 }
 
 .titulo {
@@ -215,7 +216,7 @@ a:hover{
 
 @media (max-width: 500px) {
     * {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .conteudo h2, .conteudoDentro h2 {
@@ -224,7 +225,7 @@ a:hover{
     
     .conteudo, .conteudoDentro {
         padding: 20px;
-        margin: 10px;
+        margin: 30px 10px;
     }
 
     .padding-conteudo {
