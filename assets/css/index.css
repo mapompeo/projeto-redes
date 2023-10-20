@@ -50,6 +50,86 @@
     transform: scale(115%);
 }
 
+
+.projetos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.conteudo1, .conteudo2, .conteudo3, .conteudo4{
+  background-color: white;
+  height: 75vh;
+  padding: 0% 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.conteudo2, .conteudo4{
+  background-color: #23286B;
+  color: white;
+
+}
+.projetos img{
+  width: 25vw;
+  border-radius: 20px;
+}
+.textos{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 500px;
+  width: 50vw;
+  padding-left: 10%;
+}
+.textos h2{
+  text-align: center;
+  font-size: 46px;
+  font-weight: 900;
+}
+.textos p{
+  margin-top: 6%;
+  font-size: 24px;
+  text-align: justify;
+}
+.saibaMais{
+  width: 90%;
+  height: 80px;
+  background-color: #23286B;
+  border-radius: 40px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+  cursor: pointer;
+  
+  transition: all 0.4s;
+}
+
+.conteudo2 > .textos, .conteudo4 > .textos{
+  padding-right: 10%;
+  padding-left: 0%;
+}
+.conteudo2 .saibaMais, .conteudo4 .saibaMais{
+  background-color: rgb(240,240,240);
+  color: black;
+
+}
+
+.conteudo2 .saibaMais:hover, .conteudo4 .saibaMais:hover{
+  background-color: transparent;
+  border: solid 3px white;
+  color: white;
+}
+.conteudo1 .saibaMais:hover, .conteudo3 .saibaMais:hover{
+  background-color: transparent;
+  border: solid 3px #23286B;
+  color: black;
+}
+
+
 /* classe de animação de surgimento da logo e slogan */
 #iconPrincipal {
     animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0s both;

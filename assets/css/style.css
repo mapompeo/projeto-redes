@@ -46,14 +46,16 @@ header {
     color: var(--letra);
     z-index: 100;
     transition: all 0.3s;
+    height: 60px;
 }
 
 header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
     color: var(--letra);
+    height: 100%;
 }
 
 header nav a {
@@ -61,10 +63,17 @@ header nav a {
     text-decoration: none;
     color: var(--letra);
     margin: 0px 10px;
-    padding: 5px 15px;
+    padding: 15px 15px 7px 15px;
     transition: all 0.3s;
-    border-radius: 10px;
+    border-bottom: solid 3px transparent;
+
 }
+header nav a:hover  {
+    transform: scale(100%);
+    cursor: pointer;
+    border-bottom: solid 3px white;
+}
+
 
 header nav a:first-child {
     margin-right: auto;
@@ -79,14 +88,8 @@ header nav a:first-child {
 header nav a img {
     max-width: 100px;
     max-height: 30px;
-    width: auto;
-    height: auto;
 }
 
-header nav a:hover  {
-    transform: scale(1.1);
-    cursor: pointer;
-}
 
 header.scrolled {
     background-color: transparent; 
@@ -107,11 +110,19 @@ header nav li {
     right: 0;
     display: none;
 }
+.dropMenu a:hover{
+    background-color: #2c2c2c;
+    border-color: transparent;
+}
 
 .dropDown a {
     display: block;
     transition: 0.3s;
-    margin: 5px;
+    margin: 0px;
+    width: 100%;
+    padding: 15px 15px 7px 15px;
+
+    
 }
 
 .dropDown:hover .dropMenu {
@@ -119,11 +130,10 @@ header nav li {
     justify-content: end;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 8px;
-    padding: 10px;
-    margin-right: 20px;
     width: auto;
     text-align: left;
 }
+
 /* FINAL MENU DE DROPDOWN */
 
 
