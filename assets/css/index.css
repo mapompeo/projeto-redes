@@ -21,9 +21,7 @@
 .exibicao{
   display: flex;
   flex-direction: row;
-
 }
-
 
 .logoPrincipal {
     transition: all 0.3s;
@@ -51,22 +49,6 @@
     justify-content: center;
     align-items: center;
 }
-
-
-.titulo {
-    width: 60%;
-    margin-bottom: 0px;
-}
-
-.paragrafoPrincipal {
-    font-size: 24px;
-    font-weight: bold;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
-    padding-bottom: 50px;
-    text-align: center;
-    cursor: default;
-}
-
 .divFlecha{
   display: flex;
   justify-content: center;
@@ -77,6 +59,23 @@
 }
 .flecha:hover{
   width: 65px;
+}
+
+
+
+.titulo {
+    width: 60%;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+.paragrafoPrincipal {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
+    padding-bottom: 50px;
+    text-align: center;
+    cursor: default;
 }
 
 
