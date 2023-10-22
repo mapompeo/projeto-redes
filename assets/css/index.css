@@ -1,12 +1,29 @@
 /* TELA PRINCIPAL */
-.principalDireita {
-    width: 50%;
-    height: 90vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+
+.principal {
+  background-image: url('../src/images/footer/giphy.gif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.blur {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(150px) saturate(500%) brightness(40%) contrast(80%);
+}
+.exibicao{
+  display: flex;
+  flex-direction: row;
+
+}
+
 
 .logoPrincipal {
     transition: all 0.3s;
@@ -24,8 +41,17 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-    margin: 50px;
+    height: 90vh;
 }
+.principalDireita {
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .titulo {
     width: 60%;
@@ -41,15 +67,18 @@
     cursor: default;
 }
 
+.divFlecha{
+  display: flex;
+  justify-content: center;
+}
 .flecha{
-  transition: all 0.3s;
   width: 60px;
+  transition: all 0.3s;
+}
+.flecha:hover{
+  width: 65px;
 }
 
-.flecha:hover{
-  width: 60px;
-  transform: scale(115%);
-}
 
 .projetos{
   width: 100%;
@@ -102,15 +131,16 @@
 
 .saibaMais{
   transition: all 0.3s;
-  width: 40%;
-  height: 40px;
+  width: 35%;
+  height: 50px;
   background-color: #23286B;
   border-radius: 40px;
   color: white;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: bold;
   margin-top: 20px;
   cursor: pointer;
+  border: solid 3px #23286B;
 }
 
 .conteudo2 > .textos, .conteudo4 > .textos{
@@ -121,6 +151,7 @@
 .conteudo2 .saibaMais, .conteudo4 .saibaMais{
   background-color: rgb(240,240,240);
   color: black;
+  border: solid 3px white;
 
 }
 
@@ -128,12 +159,16 @@
   background-color: transparent;
   border: solid 3px white;
   color: white;
+  width: 37%;
+  height: 52px;
 }
 
 .conteudo1 .saibaMais:hover, .conteudo3 .saibaMais:hover{
   background-color: transparent;
   border: solid 3px #23286B;
   color: black;
+  width: 37%;
+  height: 52px;
 }
 
 
