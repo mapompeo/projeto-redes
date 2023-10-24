@@ -52,6 +52,7 @@
 .divFlecha{
   display: flex;
   justify-content: center;
+  margin-top: -50px;
 }
 .flecha{
   width: 60px;
@@ -65,15 +66,14 @@
 
 .titulo {
     width: 60%;
-    margin-bottom: 0px;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .paragrafoPrincipal {
     font-size: 24px;
     font-weight: bold;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
-    padding-bottom: 50px;
+    margin-top: 10px;
     text-align: center;
     cursor: default;
 }
