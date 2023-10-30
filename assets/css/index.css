@@ -109,7 +109,7 @@
 .textos{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 500px;
   width: 50vw;
@@ -124,7 +124,7 @@
 
 .textos p{
   margin-top: 6%;
-  font-size: 18px;
+  font-size: 1.3rem;
   text-align: justify;
 }
 
