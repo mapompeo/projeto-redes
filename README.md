@@ -2,6 +2,10 @@
 
 <div align="justify">
 
+<div align="center">
+<a href="https://megadev-senai.netlify.app/"><img src="https://grupovaldirsaraiva.com.br/wp-content/uploads/2022/11/Botao-clique-aqui-site.png" height="60" width="auto"></a>
+</div>
+
 ## Descrição do Projeto:
 
 Com orgulho, apresentamos nosso site abrangente dedicado ao aprendizado de programação. Este projeto resultou na criação de uma plataforma online que concentra e organiza alguns dos conhecimentos adquiridos ao longo do curso, abrangendo tópicos como fluxogramas, algoritmos, CSS, HTML, JavaScript, banco de dados e outros aspectos relacionados à programação.
