@@ -3,7 +3,7 @@
 <div align="justify">
 
 <div align="center">
-<a href="https://megadev-senai.netlify.app/"><img src="https://grupovaldirsaraiva.com.br/wp-content/uploads/2022/11/Botao-clique-aqui-site.png" height="60" width="auto"></a>
+<a href="https://megadev-senai.netlify.app/"><img src="megadev-home.jpg" height="auto" width="auto"></a>
 </div>
 
 ## Descrição do Projeto:
