@@ -10,56 +10,102 @@
 .blur {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     backdrop-filter: blur(150px) saturate(500%) brightness(40%) contrast(80%);
 }
 
 .container {
+    height: 50vw;
+    max-height: 80vh;
+    width: 80vw;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 200px;
+    justify-content: flex-start;
+    border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(48, 48, 48, 0.60);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-#imagem {
-    transition: all 0.3s;
-    max-width: auto;
-    max-height: auto;
-    width: 400px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-
-#imagem:hover {
-    transition: all 0.3s;
-    transform: scale(1.01);
-}
-
-.caixa {
-    width: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 40px;
-    text-align: justify;
-    border-radius: 15px;
-    margin-left: 40px;
-    font-size: 24px;
-}
-
-.titulo {
+.texto{
+    max-width: 50%;
+    height: 85%;
+    margin-left: 6%;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110.319%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    padding-bottom: 30px;
-    font-weight: bolder;
-    font-size: 30px;
-    text-shadow: 0px 0px 10px rgb(255,255,255,0.3);
+    align-items: flex-start;
 }
 
-p {
-    margin: 15px;
+.texto h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    word-wrap: normal;
+}
+
+.texto p{
+    font-size: 1.4vw;
+    margin-top: 6%;
+    line-height: normal;
+}
+
+.colaboradores {
+    width: 30%;
+    height: auto;
+    background-color: #9271EE;
+    border-radius: 30px;
+    margin-left: 9%;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 20px 55.599998474121094px rgba(0, 0, 0, 0.51));
 }
 
 span{
     font-weight: bold;
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1);
+}
+
+@media(max-width: 700px){
+    .texto h1{
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .texto p{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .container{
+        height: 0;
+        width: 60vw;
+        max-height: auto;
+        flex-direction: column;
+        position: absolute;
+        max-height: 80vh;
+        height: max-content;
+    }
+
+    .texto {
+        margin: 30px;
+    }
+
+    .colaboradores{
+        width: 30vw;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
 }
