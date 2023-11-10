@@ -112,9 +112,11 @@ header nav li {
     right: 0;
     display: none;
 }
+
 .dropMenu a:hover{
     background-color: #2c2c2c;
     border-color: transparent;
+    border-radius: 8px;
 }
 
 .dropDown a {
@@ -123,8 +125,6 @@ header nav li {
     margin: 0px;
     width: 100%;
     padding: 15px 15px 7px 15px;
-
-    
 }
 
 .dropDown:hover .dropMenu {
