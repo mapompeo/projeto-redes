@@ -26,7 +26,7 @@
 
 body {
     color: var(--letra);
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 li {
@@ -112,9 +112,11 @@ header nav li {
     right: 0;
     display: none;
 }
+
 .dropMenu a:hover{
     background-color: #2c2c2c;
     border-color: transparent;
+    border-radius: 8px;
 }
 
 .dropDown a {
@@ -123,8 +125,6 @@ header nav li {
     margin: 0px;
     width: 100%;
     padding: 15px 15px 7px 15px;
-
-    
 }
 
 .dropDown:hover .dropMenu {
