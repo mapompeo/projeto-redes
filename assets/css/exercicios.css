@@ -1,0 +1,194 @@
+
+:root {
+    --principal: #148BB3;
+    --secundaria: #54AECC;
+    --background: #2A4058;
+    --backgroundHeader: #333333;
+    --backgroundHeaderSecundaria: #2c2c2c;
+    --backgroundHover: #666666;
+    --letra: #ffffff;
+    --letraEscura: #000000;
+}
+body{
+    background-color: #fcfcfc;
+}
+
+
+
+/* TELA PRINCIPAL */
+.principal {
+    background-image: url('../src/images/footer/giphy.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.blur {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    backdrop-filter: blur(150px) saturate(500%) brightness(40%) contrast(80%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.titulo {
+    transition: all 0.3s;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+.titulo:hover {
+    transition: all 0.3s;
+    text-shadow: 8px 8px 0px rgb(0, 0, 0);
+}
+
+
+.paragrafoPrincipal {
+    font-size: 24px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
+    padding: 30px 0px;
+    text-align: center;
+    margin-bottom: 30vh;
+}
+
+
+.flecha{
+    transition: all 0.3s;
+    width: 60px;
+    margin-bottom: 4vh;
+}
+.flecha:hover {
+    transition: all 0.3s;
+    text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.575);
+    transform: scale(1.05);
+}
+
+
+
+h2{
+    font-size: 2vw;
+    font-weight: 600;
+}
+p{
+    font-size: 1.3vw;
+}
+
+.divConteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#anchor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.txtINTRODUCAO{
+    width: 50%;
+    text-align: center;
+    font-size: 1.1vw;
+    line-height: 140%;
+}
+.txtINTRODUCAO h2{
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 2vw;
+}
+
+
+.conteudoBRANCO, .conteudoROXO{
+    height: 30vw;
+    width: 100%;
+    background-color: #6248FF;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conteudoBRANCO{
+    background-color: white;
+    color: black;
+}
+
+
+.txtDESCRICAO{
+    width: 33%;
+    height: 70%;
+}
+.algoritmo{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+}
+.resultados{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1vw;
+    background-color: rgba(154, 150, 179, 0.479);
+    border-radius: 20px;
+    line-height: 200%;
+    padding: 20px;
+}
+
+
+
+.botoes1, .botoes2{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px;
+}
+.botoes1 button, .botoes2 button{
+    width: 30%;
+    height: 3vw;
+    background-color: #d9d3ff;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0px 4px 10px rgb(0,0,0,0.50);
+    border-radius: 10px;
+}
+
+.conteudoBRANCO .botoes1 button, .conteudoBRANCO .botoes2 button{
+    width: 30%;
+    height: 3vw;
+    background-color: #dbdbdb;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: black;
+    border-radius: 10px;
+    text-shadow: none;
+}
+.conteudoBRANCO .resultados{
+    background-color: #dbdbdb9d;
+}
+
+.divConteudo button{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.divConteudo button:hover{
+    transform: scale(110%);
+}
+.divConteudo button:active{
+    transform: scale(100%);
+}
