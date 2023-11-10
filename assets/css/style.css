@@ -26,7 +26,7 @@
 
 body {
     color: var(--letra);
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 li {
@@ -60,7 +60,7 @@ header nav {
 }
 
 header nav a {
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none;
     color: var(--letra);
     margin: 0px 10px;
