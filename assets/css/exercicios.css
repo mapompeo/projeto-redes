@@ -46,11 +46,11 @@ body{
     font-size: 80px;
     text-align: center;
 }
+
 .titulo:hover {
     transition: all 0.3s;
     text-shadow: 8px 8px 0px rgb(0, 0, 0);
 }
-
 
 .paragrafoPrincipal {
     font-size: 24px;
