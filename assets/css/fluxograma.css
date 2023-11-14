@@ -161,7 +161,17 @@ body{
     box-shadow: 0px 3px 6px rgb(0,0,0,0.5);  
     box-shadow: 0px 3px 6px rgb(0,0,0,0.5);
     text-shadow: 0px 3px 6px rgb(0,0,0,0.5);
+    cursor: pointer;
+    transition: all 0.2s;
 }
+.descricao a:hover{
+    transform: scale(110%);
+}
+.descricao a:active{
+    transform: scale(95%);
+}
+
+
 .btns-algo{
     width: 80%;
     display: flex;
