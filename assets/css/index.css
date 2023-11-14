@@ -98,7 +98,7 @@
 }
 
 .conteudo2, .conteudo4{
-  background-color: #23286B;
+  background-color: #6248FF;
   color: white;
 
 }
@@ -134,14 +134,14 @@
   transition: all 0.3s;
   width: 35%;
   height: 50px;
-  background-color: #23286B;
+  background-color: #6248FF;
   border-radius: 40px;
   color: white;
   font-size: 26px;
   font-weight: normal;
   margin-top: 35px;
   cursor: pointer;
-  border: solid 3px #23286B;
+  border: solid 3px #6248FF;
 }
 
 .conteudo2 > .textos, .conteudo4 > .textos{
@@ -163,7 +163,7 @@
 
 .conteudo1 .saibaMais:hover, .conteudo3 .saibaMais:hover{
   background-color: transparent;
-  border: solid 3px #23286B;
+  border: solid 3px #6248FF;
   color: black;
 }
 
