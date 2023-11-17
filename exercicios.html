@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megadev | Exercícios em JS</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/conteudo.css">
+    <link rel="stylesheet" href="./assets/css/exercicios.css">
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/mapompeo/projeto-redes/main/assets/src/images/icons/megadev/favicon/megadev-favicon-white.png" type="image/x-icon">
 </head>
 <body>
@@ -38,51 +38,97 @@
             </div>
         </div>
         <div class="divConteudo">
-            <div class="conteudo" id="anchor">
-                <h2>O que é um Código JavaScript?</h2>
-                <p>Um código JavaScript é como um conjunto de instruções para um computador, assim como você daria instruções para fazer um sanduíche. Ele permite que os desenvolvedores criem comportamentos interativos em sites. Com o JavaScript, você pode controlar o que acontece quando os usuários clicam em botões, preenchem formulários ou rolam a página. É uma linguagem de programação usada principalmente para tornar as páginas da web mais dinâmicas, permitindo que os elementos na página se atualizem ou respondam às ações do usuário, tornando a experiência na web mais envolvente e interativa.</p>
-                <img id="imagens" src="assets/src/images/outros/codigo-javascript.jpg" alt="Imagem código JavaScript">
+
+
+            <div class="conteudoBRANCO" id="anchor">
+
+                <div class="txtINTRODUCAO">
+                    <h2>O que é um Código JavaScript?</h2>
+                    <p>Um código JavaScript é como um conjunto de instruções para um computador, assim como você daria instruções para fazer um sanduíche. Ele permite que os desenvolvedores criem comportamentos interativos em sites. Com o JavaScript, você pode controlar o que acontece quando os usuários clicam em botões, preenchem formulários ou rolam a página. É uma linguagem de programação usada principalmente para tornar as páginas da web mais dinâmicas, permitindo que os elementos na página se atualizem ou respondam às ações do usuário, tornando a experiência na web mais envolvente e interativa.</p>
+                </div>
+                
             </div>
-            <div class="conteudo">
-                <h2>Ordenando números aleatórios!</h2>
-                <p>Clique em "Gerar" para gerar valores aleatórios. Escolha um método de ordenação clicando no seu respectivo botão ou apenas somando os valores no botão "Somar".</p><br>
-                <div id="res_vetor" class="vetor_tela">Valores aleatórios: 0</div>
 
-                <div id="res_vet_cre" class="vetor_res"></div>
-                <div id="res_vet_decre" class="vetor_res"></div>
-                <div id="res_soma" class="vetor_res"></div>
+            <div class="conteudoROXO">
 
-                <button class="botao exercicio" onclick="gerar01()">Gerar</button>
-                <button class="botao exercicio" onclick="crescente01()">Crescente</button>
-                <button class="botao exercicio" onclick="decrescente01()">Decrescente</button>
-                <button class="botao exercicio" onclick="somar01()">Somar</button>
+                <div class="txtDESCRICAO">
+                    <h2>Ordenando números aleatórios!</h2>
+                    <br><br><br>
+                    <p>Clique em "Gerar" para gerar valores aleatórios. Escolha um método de ordenação clicando no seu respectivo botão ou apenas somando os valores no botão "Somar".</p>
+                </div>
+
+               <div class="algoritmo">
+                   <div class="resultados">
+                       <div id="res_vetor" class="vetor_tela">Valores aleatórios: 0</div>
+                       <div id="res_vet_cre" class="vetor_res"></div>
+                       <div id="res_vet_decre" class="vetor_res"></div>
+                       <div id="res_soma" class="vetor_res"></div>
+                   </div>
+
+                   <div class="botoes1">
+                       <button class="botao exercicio" onclick="gerar01()">Gerar</button>
+                       <button class="botao exercicio" onclick="crescente01()">Crescente</button>
+                    </div>
+                       <div class="botoes2">
+                           <button class="botao exercicio" onclick="decrescente01()">Decrescente</button>
+                           <button class="botao exercicio" onclick="somar01()">Somar</button>
+                       </div>
+                   
+
+               </div>
             </div>
-            <div class="conteudo">
-                <h2>Média de valores aleatórios!</h1>
-                <p>Clique em "Gerar" para gerar 10 números aletórios entre 1 e 50. Para descobrir a média aritimética, ordem crescente ou decrescente, basta clicar em seu respectivo botão:</p><br>
-                <div id="res1" class="vetor_tela">Valores aleatórios: 0</div>
 
-                <div id="res2" class="vetor_res"></div>
-                <div id="res3" class="vetor_res"></div>
-                <div id="res4" class="vetor_res"></div>
+            <div class="conteudoBRANCO">
+                 <div class="algoritmo">
+                    <div class="resultados">
+                        <div id="res1" class="vetor_tela">Valores aleatórios: 0</div>
+                        <div id="res2" class="vetor_res"></div>
+                        <div id="res3" class="vetor_res"></div>
+                        <div id="res4" class="vetor_res"></div>
+                    </div>
 
-                <button class="botao exercicio" onclick="gerar02()">Gerar</button>
-                <button class="botao exercicio" onclick="cre02()">Crescente</button>
-                <button class="botao exercicio" onclick="decre02()">Decrescente</button>
-                <button class="botao exercicio" onclick="media02()">Média</button>
+                    <div class="botoes1">
+                        <button class="botao exercicio" onclick="gerar02()">Gerar</button>
+                        <button class="botao exercicio" onclick="cre02()">Crescente</button>
+                    </div>
+                    <div class="botoes2">
+                        <button class="botao exercicio" onclick="decre02()">Decrescente</button>
+                        <button class="botao exercicio" onclick="media02()">Média</button>
+                    </div>
+                </div>
+
+                <div class="txtDESCRICAO">
+                    <h2>Média de valores aleatórios!</h1>
+                    <br><br><br>
+                    <p>Clique em "Gerar" para gerar 10 números aletórios entre 1 e 50. Para descobrir a média aritimética, ordem crescente ou decrescente, basta clicar em seu respectivo botão:</p>
+                </div>
+
             </div>
-            <div class="conteudo">
-                <h2>Média par e impar</h2>
-                <p>O algoritimo gera 10 números inteiros aleatórios entre 1 e 50.</p>
-                <div id="resValores" class="vetor_tela">Valores aleatórios: 0</div>
+            <div class="conteudoROXO">
 
-                <div id="resOrdenada" class="vetor_res"></div>
-                <div id="resMedia" class="vetor_res"></div>
+                <div class="txtDESCRICAO">
+                    <h2>Média par e impar</h2>
+                    <br><br><br>
+                    <p>O algoritimo gera 10 números inteiros aleatórios entre 1 e 50. Para descobrir a média dos valores pares e impares, basta clicar em “Média”.</p>
+                </div>
 
-                <button class="botao exercicio" onclick="gerar03()">Gerar</button>
-                <button class="botao exercicio" onclick="cresc03()">Ordenar Crescente</button>
-                <button class="botao exercicio" onclick="decre03()">Ordenar Decrescente</button>
-                <button class="botao exercicio baixo" onclick="media03()">Calcular média pares e impares</button>
+                <div class="algoritmo">
+                    <div class="resultados">
+                        <div id="resValores" class="vetor_tela">Valores aleatórios: 0</div>
+                        <div id="resOrdenada" class="vetor_res"></div>
+                        <div id="resMedia" class="vetor_res"></div>
+                    </div>
+
+                    <div class="botoes1">
+                        <button class="botao exercicio" onclick="gerar03()">Gerar</button>
+                        <button class="botao exercicio" onclick="cresc03()"> Crescente</button>
+                    </div>
+                        <div class="botoes2">
+                            <button class="botao exercicio" onclick="decre03()"> Decrescente</button>
+                            <button class="botao exercicio baixo" onclick="media03()">Média</button>
+                        </div>
+                    
+                </div>  
             </div>
         </div>
     </main>
