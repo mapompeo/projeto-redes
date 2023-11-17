@@ -56,20 +56,25 @@
                     <h2>Tipos de servidores</h2>
                     <p>Os servidores são essenciais na infraestrutura de rede de uma organização. Destacam-se servidores web, de email, de arquivos, de banco de dados e de aplicativos, cada um desempenhando funções distintas. Também existem servidores especializados, como jogos, DNS, proxy e impressão, contribuindo para a operação eficiente e segura dos sistemas.</p>
                 </div>
-                <div class="carousel-container">
+                <div class="carousel-container"> <!-- O carrossel não foi criado por nós, mas sim pelo ChatGPT. Ainda não possuimos o conhecimento suficiente para fazer este carrossel, mas a estilização foi totalmente realizada pelos devs -->
                     <div class="carousel-content">
                         <div class="carousel-item">
-                        <img src="assets/src/images/outros/cisco-dhcp.png" alt="Slide 1">
+                            <img src="assets/src/images/outros/cisco-dhcp.png" alt="Slide 1">
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/src/images/outros/cisco-dns.png" alt="Slide 2">
+                            <img src="assets/src/images/outros/cisco-dns.png" alt="Slide 2">
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/src/images/outros/cisco-http.png" alt="Slide 3">
+                            <img src="assets/src/images/outros/cisco-http.png" alt="Slide 3">
                         </div>
                     </div>
                     <button class="carousel-button prev" onclick="prevSlide()">❮</button>
                     <button class="carousel-button next" onclick="nextSlide()">❯</button>
+                    <div class="carousel-pagination">
+                        <span class="pagination-dot" onclick="showSlide(0)"></span>
+                        <span class="pagination-dot" onclick="showSlide(1)"></span>
+                        <span class="pagination-dot" onclick="showSlide(2)"></span>
+                    </div>
                 </div>
             </div>
             <div class="conteudoROXO">

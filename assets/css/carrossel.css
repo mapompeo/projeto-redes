@@ -1,44 +1,73 @@
+/* O carrossel não foi criado por nós, mas sim pelo ChatGPT. Ainda não possuimos o conhecimento suficiente para fazer este carrossel, mas a estilização foi totalmente realizada pelos devs  */
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  .carousel-container {
-    position: relative;
-    max-width: 600px;
-    margin: auto;
-    overflow: hidden;
-  }
+.carousel-container {
+  position: relative;
+  max-width: auto;
+  margin: auto;
+  overflow: hidden;
+}
 
-  .carousel-content {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
+.carousel-content {
+  display: flex;
+  transition: 0.5s ease-in-out;
+}
 
-  .carousel-item {
-    min-width: 100%;
-    box-sizing: border-box;
-  }
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
 
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    cursor: pointer;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    outline: none;
-    z-index: 1;
-  }
+.carousel-button {
+  transition: all 0.3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  color: #000000;
+  border: none;
+  padding: 10px;
+  outline: none;
+  z-index: 1;
+}
 
-  .prev {
-    left: 0;
-  }
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
 
-  .next {
-    right: 0;
-  }
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.carousel-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.pagination-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination-dot.active {
+  background-color: #333;
+}
