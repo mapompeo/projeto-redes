@@ -11,109 +11,73 @@ body {
     font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.logo {
-    transform: scale(0.4);
-}
-
 .login {
     display: flex;
 }
 
 .esquerda {
     background-color: black;
-    width: 65vw;
+    width: 55vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.logo {
+    margin-left: 5%;
+    width: 40vw; 
+    flex-shrink: 0;
+}
+
 .direita {
-    width: 35vw;
+    background-color: black;
+    width: 45vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login{
+    text-align: center;
+    margin-right: 5%;
+    width: 35vw;
+    height: 85vh;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
-input {
-    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.box-login > h1{
+    color: white;
 }
 
-.iconeConta {
-    transform: scale(5);
-    margin-bottom: 60px;
-}
-
-.boxLogin {
-    background-color: #DADADA;
+.box-login > input{
     width: 80%;
-    margin: 15px 15px;
+    height: 6%;
+    border: none;
     border-radius: 30px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.612);
     text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.boxLogin input {
-    border: none;
-    border-radius: 100px;
-    font-size: 130%;
-    text-align: center;
-    outline: none;
-    transition: all 0.3s;
-    padding: 15px 10px;
-    margin-bottom: 30px;
-    font-weight: bolder;
-    width: 80%;
-}
-
-.email {
-    margin-top: 30px;
-    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-}
-
-.boxLogin input:hover{
-    transition: 0.3s;
-    background-color: #e8e7e7;
-}
-
-.botaoLogin {
-    transition: all 0.3s;
-    background-color: #DADADA;
-    border: none;
-    padding: 15px 0px;
-    margin: 20px;
-    font-size: 130%;
-    border-radius: 100px;
+i{
+    font-size: 30px;
     cursor: pointer;
-    font-weight: bolder;
-    width: 50%;
-    margin-bottom: 70px;
-    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+
+    position: absolute;
+    right: 12%;
+    bottom: 43.4%;
 }
 
-.botaoLogin:hover{
-    transition: all 0.3s;
-    background-color: #e8e7e7;
-}
-
-.circulo {
-    transition: all 0.3s;
-    background-color: #DADADA;
-    border-radius: 50px;
-    height: 80px;
-    width: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.circulo:hover {
-    transition: all 0.3s;
-    background-color: #e8e7e7;
-}
-
-.voltar {
-    transform: scale(2);
-}
