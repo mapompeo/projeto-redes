@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <title>Megadev | Login</title>
     <link rel="shortcut icon" href="./assets/src/images/icons/megadev/favicon/megadev-favicon-white.png" type="image/x-icon">
 </head>
@@ -12,20 +13,20 @@
         <div class="esquerda">
             <img class="logo" src="./assets/src/images/icons/megadev/logo-texto/megadev-high-resolution-logo-white-on-transparent-background.png" alt="Logo Megadev">
         </div>
+        
         <div class="direita">
-            <img class="iconeConta" src="./assets/src/images/icons/megadev/svg/account.svg" alt="Ícone de conta">
-            <div class="boxLogin">
-                <form>
-                    <input type="text" class="email" placeholder="email@email.com">
-                    <input type="password" placeholder="senha123">
-                </form>
-            </div>
-            <button class="botaoLogin">Login</button>
-            <div class="circulo">
-                <a id="voltar"><img class="voltar" src="assets/src/images/icons/megadev/svg/setaVoltar.svg" alt="Clique aqui para voltar"></a>
+            <div class="box-login">
+                <h1>Bem-vindo de volta!</h1>
+                <input type="text" placeholder="Nome de usuário ou email">
+                <input type="password" placeholder="Senha" id="senha">
+                <i class="bi bi-eye" id="mostrarSenha" onclick="show()"></i>
+                
+                <a href="index.html">Esqueceu sua senha?</a>
             </div>
         </div>
     </div>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/login.js"></script>
 </body>
 </html>
+;
