@@ -56,20 +56,25 @@
                     <h2>Tipos de servidores</h2>
                     <p>Os servidores são essenciais na infraestrutura de rede de uma organização. Destacam-se servidores web, de email, de arquivos, de banco de dados e de aplicativos, cada um desempenhando funções distintas. Também existem servidores especializados, como jogos, DNS, proxy e impressão, contribuindo para a operação eficiente e segura dos sistemas.</p>
                 </div>
-                <div class="carousel-container">
+                <div class="carousel-container"> <!-- O carrossel não foi criado por nós, mas sim pelo ChatGPT. Ainda não possuimos o conhecimento suficiente para fazer este carrossel, mas a estilização foi totalmente realizada pelos devs -->
                     <div class="carousel-content">
                         <div class="carousel-item">
-                        <img src="assets/src/images/outros/cisco-dhcp.png" alt="Slide 1">
+                            <abbr title="Imagem de um servidor DHCP"><img src="assets/src/images/outros/cisco-dhcp.png" alt="Imagem de um servidor DHCP"></abbr>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/src/images/outros/cisco-dns.png" alt="Slide 2">
+                            <abbr title="Imagem de um servidor DNS"><img src="assets/src/images/outros/cisco-dns.png" alt="Imagem de um servidor DNS"></abbr>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/src/images/outros/cisco-http.png" alt="Slide 3">
+                            <abbr title="Imagem de um servidor HTTP"><img src="assets/src/images/outros/cisco-http.png" alt="Imagem de um servidor HTTP"></abbr>
                         </div>
                     </div>
                     <button class="carousel-button prev" onclick="prevSlide()">❮</button>
                     <button class="carousel-button next" onclick="nextSlide()">❯</button>
+                    <div class="carousel-pagination">
+                        <span class="pagination-dot" onclick="showSlide(0)"></span>
+                        <span class="pagination-dot" onclick="showSlide(1)"></span>
+                        <span class="pagination-dot" onclick="showSlide(2)"></span>
+                    </div>
                 </div>
             </div>
             <div class="conteudoROXO">
@@ -78,7 +83,7 @@
                     <p>Servidores DHCP automatizam a atribuição de endereços IP e configurações de rede, como máscara de sub-rede e gateway, em redes locais (LANs). Isso simplifica a administração e garante conectividade eficiente, eliminando a configuração manual de dispositivos.</p>
                 </div>
                 <div>
-                    <img id="imagens" src="./assets/src/images/outros/servidor-dhcp.jpg" alt="Imagem de um servidor DHCP">
+                    <abbr title="Imagem de um servidor DHCP"><img id="imagens" src="./assets/src/images/outros/servidor-dhcp.jpg" alt="Imagem de um servidor DHCP"></abbr>
                 </div>
             </div>
             <div class="conteudoBRANCO">
@@ -87,7 +92,7 @@
                     <p>Servidores DNS traduzem nomes de domínio em endereços IP, permitindo que dispositivos encontrem servidores na internet. Também armazenam informações sobre hierarquia de domínios e direcionam tráfego para navegação e comunicação online eficientes.</p>
                 </div>
                 <div>
-                    <img id="imagens" src="./assets/src/images/outros/servidor-google.jpg" alt="Imagem de um servidor">
+                    <abbr title="Imagem de um servidor"><img id="imagens" src="./assets/src/images/outros/servidor-google.jpg" alt="Imagem de um servidor DNS"></abbr>
                 </div>
             </div>
             <div class="conteudoROXO">
@@ -95,8 +100,28 @@
                     <h2>Servidor HTTP</h2>
                     <p>Servidor HTTP gerencia a comunicação na internet, recebendo solicitações de navegadores e enviando páginas da web e recursos. Segue regras específicas para entrega eficiente de conteúdo, viabilizando a navegação na internet.</p>
                 </div>
-                <div class="">
-                    <img id="imagens" src="./assets/src/images/outros/server.jpg" alt="Imagem de um servidor">
+                <div>
+                    <abbr title="Imagem de um servidor"><img id="imagens" src="./assets/src/images/outros/server.jpg" alt="Imagem de um servidor"></abbr>
+                </div>
+            </div>
+            <div class="conteudoBRANCO">
+                <div class="txtINTRODUCAO">
+                    <h2>HUB na rede</h2>
+                    <div class="esquerdaDireita">
+                        <p>O hub desempenha um papel fundamental nas redes de computadores, embora suas funções tenham evoluído ao longo do tempo. Em ambientes mais simples e de pequena escala, o hub é útil por sua simplicidade e custo relativamente baixo. Ele atua como um dispositivo de conectividade, permitindo que vários dispositivos compartilhem informações através da repetição dos dados para todas as portas. Embora tenha limitações em termos de eficiência, controle de tráfego e capacidade de segmentação, o hub ainda é empregado em algumas situações específicas.</p>
+                    </div>
+                    <div>
+                        <abbr title="Imagem de um HUB"><img id="imagens" src="assets/src/images/outros/hub.jpg" alt="Imagem de um HUB"></abbr>
+                    </div>
+                </div>
+            </div>
+            <div class="conteudoROXO">
+                <div class="txtINTRODUCAO">
+                    <h2>Switch na rede</h2>
+                    <p>O switch desempenha um papel vital nas redes de computadores modernas, sendo um componente essencial para otimizar o desempenho, a eficiência e a segurança da comunicação entre dispositivos. Ao contrário do hub, o switch opera na camada de enlace de dados, analisando endereços MAC para encaminhar dados seletivamente apenas para a porta relevante.</p>
+                </div>
+                <div>
+                    <abbr title="Imagem de um Switch"><img id="imagens" src="assets/src/images/outros/switch.jpg" alt="Imagem de um Switch"></abbr>
                 </div>
             </div>
             <div class="conteudoBRANCO">
