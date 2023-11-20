@@ -9,24 +9,54 @@
     <link rel="shortcut icon" href="./assets/src/images/icons/megadev/favicon/megadev-favicon-white.png" type="image/x-icon">
 </head>
 <body>
-    <div class="login">
+    <div class="blur1"></div>
+    <div class="blur2"></div>
+    <div class="blur3"></div>
+    <div class="blur4"></div>
+    <div class="login"> 
         <div class="esquerda">
-            <img class="logo" src="./assets/src/images/icons/megadev/logo-texto/megadev-high-resolution-logo-white-on-transparent-background.png" alt="Logo Megadev">
+            <img class="logo" src="./assets/src/images/outros/login-logo.png" alt="Logo Megadev">
         </div>
         
         <div class="direita">
+            <img class="logo-solo" src="./assets/src/images/icons/megadev/favicon/megadev-favicon-white.png" alt="Logo solo">
+
             <div class="box-login">
                 <h1>Bem-vindo de volta!</h1>
-                <input type="text" placeholder="Nome de usuário ou email">
-                <input type="password" placeholder="Senha" id="senha">
-                <i class="bi bi-eye" id="mostrarSenha" onclick="show()"></i>
-                
-                <a href="index.html">Esqueceu sua senha?</a>
+                <div class="divLogin">
+                    <input type="text" id="login" placeholder="Nome de usuário ou e-mail">
+                </div>
+                <div class="divsenha">
+                    <input type="password" id="senha" placeholder="Senha">
+                    <i class="bi-eye" id="mostrarSenha" onclick="show()"></i>
+                </div>
+
+                <div class="">
+                <a href="index.html" class="esqueceu-senha">Esqueceu sua senha?</a>
+
+                <a href="index.html">
+                    <button class="roxo">
+                        Entrar
+                    </button>
+
+                    <button class="google">
+                        <img src="assets/src/images/outros/google-logo.png" alt="Google" id="logo-google">
+                        Entrar com Google
+                    </button>
+
+                    <button class="apple">
+                        <img src="assets/src/images/outros/apple-logo.png" alt="apple" id="logo-apple">
+                        Entrar com Apple ID
+                    </button>
+                </a>
+                <p>Não possui uma <span>conta</span>? <span id="criar" onclick="window.location.href='./index.html'">Criar conta</span>!</p>
             </div>
         </div>
     </div>
+
+  
+
     <script src="assets/js/script.js"></script>
     <script src="assets/js/login.js"></script>
 </body>
 </html>
-;
