@@ -231,6 +231,51 @@ span{
     width: 200px;
 }
 
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+
+@media(max-width: 1490px) {
+    .esquerda {
+        width: 65%;
+    }
+    #senha, #login{
+        padding-left: auto;
+    }
+}
+
+@media(max-width: 1024px){
+   .esquerda{
+        display: none;
+    }
+    .logo-solo{
+        display: flex;
+        width: 30%;
+        padding: 30px 0;
+    }
+    .direita{
+        width: 100%;
+        flex-direction: column;
+    }
+    .box-login{
+        margin: 35px;
+        width: 80%;
+    }
+    .roxo, .google, .apple{
+        width: 120%;
+        font-size: 20px;
+    }
+    
+    .box-login {
+        height: 60vh;
+    }
+}
+
 @media(max-width: 700px){
     .esquerda{
         display: none;
