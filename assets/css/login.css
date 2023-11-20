@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -29,7 +29,6 @@ body {
     width: 45vw; 
     flex-shrink: 0;
 }
-
 
 .direita {
     background-color: black;
@@ -248,38 +247,6 @@ span{
     flex-direction: column;
     margin: 15px;
 }
-
-
-/* .highlight {
-    position: absolute;
-    background-color: white;
-    pointer-events: none;
-    z-index: 1;
-} */
-
-
-/* .box-login {
-    position: relative;
-}
-
-.highlight {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: white;
-    pointer-events: none;
-    z-index: 1;
-    filter: blur(15px); /* Ajuste o valor do desfoque conforme necessário */
-    /* transition: all 0.3s ease-out; /* Adiciona uma transição suave para suavizar a mudança */
-/* }
-
-.box-login:hover .highlight {
-    width: 100%;
-} */
-
-
 
 @media(max-width: 1490px) {
     .esquerda {
