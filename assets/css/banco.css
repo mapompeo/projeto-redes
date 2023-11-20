@@ -30,6 +30,7 @@ body{
     display: flex;
     flex-direction: row;
     height: 100vh;
+    -webkit-backdrop-filter: blur(150px) saturate(500%) brightness(40%) contrast(80%);
     backdrop-filter: blur(150px) saturate(500%) brightness(40%) contrast(80%);
 }
 
@@ -193,7 +194,7 @@ span{
         padding: 0;
     }
     .txtINTRODUCAO{
-        width: 90%;
+        width: 70%;
     }
     .txtINTRODUCAO h2{
         font-size: 4vw;
