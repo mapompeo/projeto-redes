@@ -130,6 +130,12 @@ body{
     margin-bottom: 50px;
 }
 
+.esquerdaDireita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* FINAL CONTEÚDO */
 
 
