@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -29,7 +29,6 @@ body {
     width: 45vw; 
     flex-shrink: 0;
 }
-
 
 .direita {
     background-color: black;
@@ -231,15 +230,96 @@ span{
     width: 200px;
 }
 
+.logo-solo {
+    transition: all 0.3s;
+    width: 40%;
+    animation-name: logoAnimacao;
+    animation-duration: 40s;
+    animation-delay: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+@media(max-width: 1490px) {
+    .esquerda {
+        width: 65%;
+    }
+
+    #senha, #login{
+        padding-left: auto;
+    }
+
+    #logoAnimacao {
+        animation: scale-in-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+    }
+
+    @keyframes logoAnimacao {
+        100% {
+            rotate: -360deg;
+        }
+    }
+}
+
+@media(max-width: 1024px){
+   .esquerda{
+        display: none;
+    }
+
+    .logo-solo{
+        display: flex;
+        width: 30%;
+        padding: 30px 0;
+    }
+    
+    .direita{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box-login{
+        margin: 35px;
+        width: 80%;
+    }
+
+    .roxo, .google, .apple{
+        width: 120%;
+        font-size: 20px;
+    }
+    
+    .box-login {
+        height: 60vh;
+    }
+
+    #logoAnimacao {
+        animation: scale-in-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+    }
+
+    @keyframes logoAnimacao {
+        100% {
+            rotate: -360deg;
+        }
+    }
+}
+
 @media(max-width: 700px){
     .esquerda{
         display: none;
     }
+
     .logo-solo{
         display: flex;
         width: 50%;
         padding: 50px 0;
     }
+
     .direita{
         width: 100%;
         flex-direction: column;
@@ -249,14 +329,27 @@ span{
         margin: 0;
         margin-bottom: 100px;
     }
+
     .google, .apple{
         width: 100%;
     }
+
     .roxo, .google, .apple{
         width: 100%;
         font-size: 18px;
     }
+
     #senha, #login{
         width: 110%;
+    }
+
+    #logoAnimacao {
+        animation: scale-in-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+    }
+
+    @keyframes logoAnimacao {
+        100% {
+            rotate: -360deg;
+        }
     }
 }

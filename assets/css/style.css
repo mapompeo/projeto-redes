@@ -95,6 +95,7 @@ header nav a img {
 header.scrolled {
     background-color: transparent; 
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(10px) saturate(100%) brightness(40%) contrast(100%);
     backdrop-filter: blur(10px) saturate(100%) brightness(40%) contrast(100%);
 }
 /* FINAL HEADER */

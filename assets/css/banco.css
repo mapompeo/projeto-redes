@@ -30,6 +30,7 @@ body{
     display: flex;
     flex-direction: row;
     height: 100vh;
+    -webkit-backdrop-filter: blur(150px) saturate(500%) brightness(40%) contrast(80%);
     backdrop-filter: blur(150px) saturate(500%) brightness(40%) contrast(80%);
 }
 
@@ -147,7 +148,7 @@ span{
     border-radius: 10px;
     height: auto;
     width: 80%;
-    height: 35vh;
+
     border-radius: 33px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     box-shadow: 0px 10px 17.5px 0px rgba(0, 0, 0, 0.50);
@@ -185,4 +186,25 @@ span{
     .padding-conteudo {
         margin: 5px;
     }
+}
+
+
+@media(max-width: 1000px) {
+    .divConteudo{
+        padding: 0;
+    }
+    .txtINTRODUCAO{
+        width: 70%;
+    }
+    .txtINTRODUCAO h2{
+        font-size: 4vw;
+    }
+    .txtINTRODUCAO p{
+        font-size: 3vw;
+        line-height: normal;
+    }
+    li{
+        line-height: normal;
+    }
+
 }
