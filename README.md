@@ -3,7 +3,7 @@
 <div align="justify">
 
 <div align="center">
-<a href="https://megadev-senai.netlify.app/"><img src="megadev-home.jpg" height="auto" width="auto"></a>
+<a href="https://megadev-senai.netlify.app/"><img src="https://cdn.glitch.global/86247ecb-38c3-4a76-88b7-ec25e09be333/mockupMEGADEV.png?v=1700532820304" height="auto" width="auto"></a>
 </div>
 
 ## Descrição do Projeto:
